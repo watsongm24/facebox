@@ -1,0 +1,3173 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>Reponsive HTML Template</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Bootstrap -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href='http://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800' rel='stylesheet' type='text/css'>
+<link href="css/style.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="shortcodes/shortcodes.css">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+          <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+</head>
+<body>
+<header class="main__header normal">
+  <div class="container">
+    <nav class="navbar navbar-default" role="navigation"> 
+      <!-- Brand and toggle get grouped for better mobile display --> 
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="navbar-header">
+        <h1 class="navbar-brand"><a href="index.html">Geo<span>Graph</span></a></h1>
+        <a href="#" onClick="javascript.void()" class="submenu">Menus</a> </div>
+      <div class="menuBar">
+        <ul class="menu">
+          <li><a href="index.html">Home</a></li>
+          <li class="dropdown"><a href="#">Pages</a>
+            <ul>
+              <li><a href="index_fixed.html">Home / Fixed</a></li>
+              <li><a href="index_with_blog.html">Home + Blog</a></li>
+              <li><a href="portfolio.html">Portfolio</a></li>
+              <li><a href="typography.html">Typography</a></li>
+              <li><a href="shortcodes.html">Shortcodes</a></li>
+              <li><a href="store.html">Web Store</a></li>
+              <li><a href="blog.html">Blog & News</a></li>
+              <li><a href="tables.html">Tables</a></li>
+              <li><a href="faq.html">FAQ</a></li>
+            </ul>
+          </li>
+          <li><a href="left_sidebar.html">left sidebar</a></li>
+          <li><a href="right_sidebar.html">right sidebar</a></li>
+          <li class="active"><a href="full_width.html">full page</a></li>
+          <li><a href="contact.html">contact us</a></li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse --> 
+    </nav>
+  </div>
+</header>
+<section class="main__middle__container">
+  <div class="titles blog text-left">
+    <div class="container">
+      <div class="seper"></div>
+      <h2 class="page__title">Table Styles</h2>
+      <p class="small-paragraph">Create stylish data & pricing tables quickly with pre-built CSS classes.</p>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row no_padding title__block nothing no-margin">
+      <h3>Table style 1</h3>
+      <table class="dc_table_s1" cellspacing="0" summary="CPU Comparison" style="width:100%;">
+        <caption>
+        Table 1: CPU Comparison
+        </caption>
+        <tr>
+          <th scope="col" abbr="Specs" class="nobg">Specs</th>
+          <th scope="col" abbr="Xeon E5-2687W">Xeon E5-2687W</th>
+          <th scope="col" abbr=Core i7 990X">Core i7 990X</th>
+          <th scope="col" abbr="Opteron 6274">Opteron 6274</th>
+        </tr>
+        <tr>
+          <th scope="row" abbr="Model" class="spec">Brand</th>
+          <td>Intel</td>
+          <td>Intel</td>
+          <td>AMD</td>
+        </tr>
+        <tr>
+          <th scope="row" abbr="Speed" class="specalt">Speed</th>
+          <td class="alt">3.10GHz</td>
+          <td class="alt">3.47GHz</td>
+          <td class="alt">2.20Ghz</td>
+        </tr>
+        <tr>
+          <th scope="row" abbr="Cost" class="spec">Cost</th>
+          <td>$1800</td>
+          <td>$1100</td>
+          <td>$650</td>
+        </tr>
+        <tr>
+          <th scope="row" abbr="Cpu Mark" class="specalt">Cpu Mark</th>
+          <td class="alt">17,872</td>
+          <td class="alt">10,550</td>
+          <td class="alt">10,337</td>
+        </tr>
+      </table>
+      <div class="js_hide_gadget js_minimized">
+        <h4><a href="#" class="js_hs_a">View code:</a></h4>
+        <div class="js_hide_box">
+          <pre class="brush: xml">
+
+&lt;!-- DC Table Styles I:1 Start -->
+  &lt;table class="dc_table_s1" cellspacing="0" summary="CPU Comparison" style="width:100%;">
+    &lt;caption>
+    Table 1: CPU Comparison
+    &lt;/caption>
+    &lt;tr>
+      &lt;th scope="col" abbr="Specs" class="nobg">Specs&lt;/th>
+      &lt;th scope="col" abbr="Xeon E5-2687W">Xeon E5-2687W&lt;/th>
+      &lt;th scope="col" abbr=Core i7 990X">Core i7 990X&lt;/th>
+      &lt;th scope="col" abbr="Opteron 6274">Opteron 6274&lt;/th>
+    &lt;/tr>
+    &lt;tr>
+      &lt;th scope="row" abbr="Model" class="spec">Brand&lt;/th>
+      &lt;td>Intel&lt;/td>
+      &lt;td>Intel&lt;/td>
+      &lt;td>AMD&lt;/td>
+    &lt;/tr>
+    &lt;tr>
+      &lt;th scope="row" abbr="Speed" class="specalt">Speed&lt;/th>
+      &lt;td class="alt">3.10GHz&lt;/td>
+      &lt;td class="alt">3.47GHz&lt;/td>
+      &lt;td class="alt">2.20Ghz&lt;/td>
+    &lt;/tr>
+    &lt;tr>
+      &lt;th scope="row" abbr="Cost" class="spec">Cost&lt;/th>
+      &lt;td>$1800&lt;/td>
+      &lt;td>$1100&lt;/td>
+      &lt;td>$650&lt;/td>
+    &lt;/tr>
+    &lt;tr>
+      &lt;th scope="row" abbr="Cpu Mark" class="specalt">Cpu Mark&lt;/th>
+      &lt;td class="alt">17,872&lt;/td>
+      &lt;td class="alt">10,550&lt;/td>
+      &lt;td class="alt">10,337&lt;/td>
+    &lt;/tr>
+  &lt;/table>
+&lt;!-- DC Table Styles I:1 End -->
+
+          </pre>
+        </div>
+      </div>
+      <h3>Table style 2</h3>
+      <table class="dc_table_s2" summary="Overview of hosting plans" style="width:100%;">
+        <caption>
+        Table 2: Web Hosting Plans
+        </caption>
+        <thead>
+          <tr class="odd">
+            <td class="column1"></td>
+            <th scope="col" abbr="Simple">Simple Plan</th>
+            <th scope="col" abbr="Business">Business Plan</th>
+            <th scope="col" abbr="Pro">Pro Plan</th>
+          </tr>
+        </thead>
+        <tfoot>
+          <tr class="odd">
+            <td class="column1">&nbsp;</td>
+            <th scope="col"><strong>Simple</strong><br />
+              <em>$4.95</em> / month<br />
+              <a href="#">order now</a></th>
+            <th scope="col"><strong>Business</strong><br />
+              <em>$9.95</em> / month<br />
+              <a href="#">order now</a></th>
+            <th scope="col"><strong>Pro</strong><br />
+              <em>$19.95</em> / month<br />
+              <a href="#">order now</a></th>
+          </tr>
+        </tfoot>
+        <tbody>
+          <tr>
+            <th scope="row" class="column1">Data Transfer</th>
+            <td>10 GB</td>
+            <td>50 GB</td>
+            <td>150 GB</td>
+          </tr>
+          <tr class="odd">
+            <th scope="row" class="column1">Storage Space</th>
+            <td>1,000 MB </td>
+            <td>10,000 MB</td>
+            <td>20,000 MB</td>
+          </tr>
+          <tr>
+            <th scope="row" class="column1">MySQL Databases</th>
+            <td>5</td>
+            <td>100</td>
+            <td>Unlimited</td>
+          </tr>
+          <tr class="odd">
+            <th scope="row" class="column1">Email Boxes</th>
+            <td>5</td>
+            <td>25</td>
+            <td>Unlimited</td>
+          </tr>
+          <tr>
+            <th scope="row" class="column1">Cpanel</th>
+            <td>No</td>
+            <td>Yes</td>
+            <td>Yes</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="js_hide_gadget js_minimized">
+        <h4><a href="#" class="js_hs_a">View code:</a></h4>
+        <div class="js_hide_box">
+          <pre class="brush: xml">
+
+&lt;!-- DC Table Styles I:2 Start -->
+  &lt;table class="dc_table_s2" summary="Overview of hosting plans" style="width:100%;">
+    &lt;caption>
+    Table 2: Web Hosting Plans
+    &lt;/caption>
+    &lt;thead>
+      &lt;tr class="odd">
+        &lt;td class="column1">&lt;/td>
+        &lt;th scope="col" abbr="Simple">Simple Plan&lt;/th>
+        &lt;th scope="col" abbr="Business">Business Plan&lt;/th>
+        &lt;th scope="col" abbr="Pro">Pro Plan&lt;/th>
+      &lt;/tr>
+    &lt;/thead>
+    &lt;tfoot>
+      &lt;tr class="odd">
+        &lt;td class="column1">&nbsp;&lt;/td>
+        &lt;th scope="col">&lt;strong>Simple&lt;/strong>&lt;br />
+          &lt;em>$4.95&lt;/em> / month&lt;br />
+          &lt;a href="#">order now&lt;/a>&lt;/th>
+        &lt;th scope="col">&lt;strong>Business&lt;/strong>&lt;br />
+          &lt;em>$9.95&lt;/em> / month&lt;br />
+          &lt;a href="#">order now&lt;/a>&lt;/th>
+        &lt;th scope="col">&lt;strong>Pro&lt;/strong>&lt;br />
+          &lt;em>$19.95&lt;/em> / month&lt;br />
+          &lt;a href="#">order now&lt;/a>&lt;/th>
+      &lt;/tr>
+    &lt;/tfoot>
+    &lt;tbody>
+      &lt;tr>
+        &lt;th scope="row" class="column1">Data Transfer&lt;/th>
+        &lt;td>10 GB&lt;/td>
+        &lt;td>50 GB&lt;/td>
+        &lt;td>150 GB&lt;/td>
+      &lt;/tr>
+      &lt;tr class="odd">
+        &lt;th scope="row" class="column1">Storage Space&lt;/th>
+        &lt;td>1,000 MB &lt;/td>
+        &lt;td>10,000 MB&lt;/td>
+        &lt;td>20,000 MB&lt;/td>
+      &lt;/tr>
+      &lt;tr>
+        &lt;th scope="row" class="column1">MySQL Databases&lt;/th>
+        &lt;td>5&lt;/td>
+        &lt;td>100&lt;/td>
+        &lt;td>Unlimited&lt;/td>
+      &lt;/tr>
+      &lt;tr class="odd">
+        &lt;th scope="row" class="column1">Email Boxes&lt;/th>
+        &lt;td>5&lt;/td>
+        &lt;td>25&lt;/td>
+        &lt;td>Unlimited&lt;/td>
+      &lt;/tr>
+      &lt;tr>
+        &lt;th scope="row" class="column1">Cpanel&lt;/th>
+        &lt;td>No&lt;/td>
+        &lt;td>Yes&lt;/td>
+        &lt;td>Yes&lt;/td>
+      &lt;/tr>
+    &lt;/tbody>
+  &lt;/table>
+&lt;!-- DC Table Styles I:2 End -->
+
+          </pre>
+        </div>
+      </div>
+      <h3>Table styles 3</h3>
+      <table class="dc_table_s3" summary="Sample Table" style="width:100%;">
+        <caption>
+        Table 3: Sample Table
+        </caption>
+        <thead>
+          <tr>
+            <th scope="col">Structure</th>
+            <th scope="col">Country</th>
+            <th scope="col">City</th>
+            <th scope="col">Height</th>
+            <th scope="col">Built</th>
+            <th scope="col">Rank</th>
+            <th scope="col">...</th>
+          </tr>
+        </thead>
+        <tfoot>
+          <tr>
+            <th scope="row">Total</th>
+            <td colspan="7">4 buildings</td>
+          </tr>
+        </tfoot>
+        <tbody>
+          <tr >
+            <th scope="row">Burj Khalifa</th>
+            <td>UAE</td>
+            <td>Dubai</td>
+            <td>829m</td>
+            <td>2010</td>
+            <td>1</td>
+            <td><a href="#">details</a></td>
+          </tr>
+          <tr class="odd">
+            <th scope="row">Clock Tower Hotel</th>
+            <td>Saudi Arabia</td>
+            <td>Mecca</td>
+            <td>601m</td>
+            <td>2012</td>
+            <td>2</td>
+            <td><a href="#">details</a></td>
+          </tr>
+          <tr >
+            <th scope="row">Taipei 101</th>
+            <td>Taiwan</td>
+            <td>Taipei</td>
+            <td>509m</td>
+            <td>2004</td>
+            <td>3</td>
+            <td><a href="#">details</a></td>
+          </tr>
+          <tr class="odd">
+            <th scope="row">Financial Center</th>
+            <td>China</td>
+            <td>Shanghai</td>
+            <td>492m</td>
+            <td>2008</td>
+            <td>4</td>
+            <td><a href="#">details</a></td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="js_hide_gadget js_minimized">
+        <h4><a href="#" class="js_hs_a">View code:</a></h4>
+        <div class="js_hide_box">
+          <pre class="brush: xml">
+
+&lt;!-- DC Table Styles I:3 Start -->
+  &lt;table class="dc_table_s3" summary="Sample Table" style="width:100%;">
+    &lt;caption>
+    Table 3: Sample Table
+    &lt;/caption>
+    &lt;thead>
+      &lt;tr>
+        &lt;th scope="col">Structure&lt;/th>
+        &lt;th scope="col">Country&lt;/th>
+        &lt;th scope="col">City&lt;/th>
+        &lt;th scope="col">Height&lt;/th>
+        &lt;th scope="col">Built&lt;/th>
+        &lt;th scope="col">Rank&lt;/th>
+        &lt;th scope="col">...&lt;/th>
+      &lt;/tr>
+    &lt;/thead>
+    &lt;tfoot>
+      &lt;tr>
+        &lt;th scope="row">Total&lt;/th>
+        &lt;td colspan="7">4 buildings&lt;/td>
+      &lt;/tr>
+    &lt;/tfoot>
+    &lt;tbody>
+      &lt;tr >
+        &lt;th scope="row">Burj Khalifa&lt;/th>
+        &lt;td>UAE&lt;/td>
+        &lt;td>Dubai&lt;/td>
+        &lt;td>829m&lt;/td>
+        &lt;td>2010&lt;/td>
+        &lt;td>1&lt;/td>
+        &lt;td>&lt;a href="#">details&lt;/a>&lt;/td>
+      &lt;/tr>
+      &lt;tr class="odd">
+        &lt;th scope="row">Clock Tower Hotel&lt;/th>
+        &lt;td>Saudi Arabia&lt;/td>
+        &lt;td>Mecca&lt;/td>
+        &lt;td>601m&lt;/td>
+        &lt;td>2012&lt;/td>
+        &lt;td>2&lt;/td>
+        &lt;td>&lt;a href="#">details&lt;/a>&lt;/td>
+      &lt;/tr>
+      &lt;tr >
+        &lt;th scope="row">Taipei 101&lt;/th>
+        &lt;td>Taiwan&lt;/td>
+        &lt;td>Taipei&lt;/td>
+        &lt;td>509m&lt;/td>
+        &lt;td>2004&lt;/td>
+        &lt;td>3&lt;/td>
+        &lt;td>&lt;a href="#">details&lt;/a>&lt;/td>
+      &lt;/tr>
+      &lt;tr class="odd">
+        &lt;th scope="row">Financial Center&lt;/th>
+        &lt;td>China&lt;/td>
+        &lt;td>Shanghai&lt;/td>
+        &lt;td>492m&lt;/td>
+        &lt;td>2008&lt;/td>
+        &lt;td>4&lt;/td>
+        &lt;td>&lt;a href="#">details&lt;/a>&lt;/td>
+      &lt;/tr>
+    &lt;/tbody>
+  &lt;/table>
+&lt;!-- DC Table Styles I:3 End -->
+
+          </pre>
+        </div>
+      </div>
+      <h3>Table styles 4</h3>
+      <table class="dc_table_s4" summary="Sample Table" style="width:100%;">
+        <caption>
+        Table 4: Sample Table
+        </caption>
+        <thead>
+          <tr>
+            <th scope="col">Structure</th>
+            <th scope="col">Country</th>
+            <th scope="col">City</th>
+            <th scope="col">Height</th>
+            <th scope="col">Built</th>
+            <th scope="col">Rank</th>
+            <th scope="col">...</th>
+          </tr>
+        </thead>
+        <tfoot>
+          <tr>
+            <th scope="row">Total</th>
+            <td colspan="7">4 buildings</td>
+          </tr>
+        </tfoot>
+        <tbody>
+          <tr >
+            <th scope="row">Burj Khalifa</th>
+            <td>UAE</td>
+            <td>Dubai</td>
+            <td>829m</td>
+            <td>2010</td>
+            <td>1</td>
+            <td><a href="#">details</a></td>
+          </tr>
+          <tr class="odd">
+            <th scope="row">Clock Tower Hotel</th>
+            <td>Saudi Arabia</td>
+            <td>Mecca</td>
+            <td>601m</td>
+            <td>2012</td>
+            <td>2</td>
+            <td><a href="#">details</a></td>
+          </tr>
+          <tr >
+            <th scope="row">Taipei 101</th>
+            <td>Taiwan</td>
+            <td>Taipei</td>
+            <td>509m</td>
+            <td>2004</td>
+            <td>3</td>
+            <td><a href="#">details</a></td>
+          </tr>
+          <tr class="odd">
+            <th scope="row">Financial Center</th>
+            <td>China</td>
+            <td>Shanghai</td>
+            <td>492m</td>
+            <td>2008</td>
+            <td>4</td>
+            <td><a href="#">details</a></td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="js_hide_gadget js_minimized">
+        <h4><a href="#" class="js_hs_a">View code:</a></h4>
+        <div class="js_hide_box">
+          <pre class="brush: xml">
+
+&lt;!-- DC Table Styles I:4 Start -->
+  &lt;table class="dc_table_s4" summary="Sample Table" style="width:100%;">
+    &lt;caption>
+    Table 4: Sample Table
+    &lt;/caption>
+    &lt;thead>
+      &lt;tr>
+        &lt;th scope="col">Structure&lt;/th>
+        &lt;th scope="col">Country&lt;/th>
+        &lt;th scope="col">City&lt;/th>
+        &lt;th scope="col">Height&lt;/th>
+        &lt;th scope="col">Built&lt;/th>
+        &lt;th scope="col">Rank&lt;/th>
+        &lt;th scope="col">...&lt;/th>
+      &lt;/tr>
+    &lt;/thead>
+    &lt;tfoot>
+      &lt;tr>
+        &lt;th scope="row">Total&lt;/th>
+        &lt;td colspan="7">4 buildings&lt;/td>
+      &lt;/tr>
+    &lt;/tfoot>
+    &lt;tbody>
+      &lt;tr >
+        &lt;th scope="row">Burj Khalifa&lt;/th>
+        &lt;td>UAE&lt;/td>
+        &lt;td>Dubai&lt;/td>
+        &lt;td>829m&lt;/td>
+        &lt;td>2010&lt;/td>
+        &lt;td>1&lt;/td>
+        &lt;td>&lt;a href="#">details&lt;/a>&lt;/td>
+      &lt;/tr>
+      &lt;tr class="odd">
+        &lt;th scope="row">Clock Tower Hotel&lt;/th>
+        &lt;td>Saudi Arabia&lt;/td>
+        &lt;td>Mecca&lt;/td>
+        &lt;td>601m&lt;/td>
+        &lt;td>2012&lt;/td>
+        &lt;td>2&lt;/td>
+        &lt;td>&lt;a href="#">details&lt;/a>&lt;/td>
+      &lt;/tr>
+      &lt;tr >
+        &lt;th scope="row">Taipei 101&lt;/th>
+        &lt;td>Taiwan&lt;/td>
+        &lt;td>Taipei&lt;/td>
+        &lt;td>509m&lt;/td>
+        &lt;td>2004&lt;/td>
+        &lt;td>3&lt;/td>
+        &lt;td>&lt;a href="#">details&lt;/a>&lt;/td>
+      &lt;/tr>
+      &lt;tr class="odd">
+        &lt;th scope="row">Financial Center&lt;/th>
+        &lt;td>China&lt;/td>
+        &lt;td>Shanghai&lt;/td>
+        &lt;td>492m&lt;/td>
+        &lt;td>2008&lt;/td>
+        &lt;td>4&lt;/td>
+        &lt;td>&lt;a href="#">details&lt;/a>&lt;/td>
+      &lt;/tr>
+    &lt;/tbody>
+  &lt;/table>
+&lt;!-- DC Table Styles I:4 End -->
+
+          </pre>
+        </div>
+      </div>
+      <h3>Table styles 5</h3>
+      <table class="dc_table_s5" summary="Sample Table" style="width:100%;">
+        <caption>
+        Table 5: Sample Table
+        </caption>
+        <thead>
+          <tr>
+            <th scope="col">Structure</th>
+            <th scope="col">Country</th>
+            <th scope="col">City</th>
+            <th scope="col">Height</th>
+            <th scope="col">Built</th>
+            <th scope="col">Rank</th>
+            <th scope="col">...</th>
+          </tr>
+        </thead>
+        <tfoot>
+          <tr>
+            <th scope="row">Total</th>
+            <td colspan="7">4 buildings</td>
+          </tr>
+        </tfoot>
+        <tbody>
+          <tr >
+            <th scope="row">Burj Khalifa</th>
+            <td>UAE</td>
+            <td>Dubai</td>
+            <td>829m</td>
+            <td>2010</td>
+            <td>1</td>
+            <td><a href="#">details</a></td>
+          </tr>
+          <tr class="odd">
+            <th scope="row">Clock Tower Hotel</th>
+            <td>Saudi Arabia</td>
+            <td>Mecca</td>
+            <td>601m</td>
+            <td>2012</td>
+            <td>2</td>
+            <td><a href="#">details</a></td>
+          </tr>
+          <tr >
+            <th scope="row">Taipei 101</th>
+            <td>Taiwan</td>
+            <td>Taipei</td>
+            <td>509m</td>
+            <td>2004</td>
+            <td>3</td>
+            <td><a href="#">details</a></td>
+          </tr>
+          <tr class="odd">
+            <th scope="row">Financial Center</th>
+            <td>China</td>
+            <td>Shanghai</td>
+            <td>492m</td>
+            <td>2008</td>
+            <td>4</td>
+            <td><a href="#">details</a></td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="js_hide_gadget js_minimized">
+        <h4><a href="#" class="js_hs_a">View code:</a></h4>
+        <div class="js_hide_box">
+          <pre class="brush: xml">
+
+&lt;!-- DC Table Styles I:5 Start -->
+  &lt;table class="dc_table_s5" summary="Sample Table" style="width:100%;">
+    &lt;caption>
+    Table 5: Sample Table
+    &lt;/caption>
+    &lt;thead>
+      &lt;tr>
+        &lt;th scope="col">Structure&lt;/th>
+        &lt;th scope="col">Country&lt;/th>
+        &lt;th scope="col">City&lt;/th>
+        &lt;th scope="col">Height&lt;/th>
+        &lt;th scope="col">Built&lt;/th>
+        &lt;th scope="col">Rank&lt;/th>
+        &lt;th scope="col">...&lt;/th>
+      &lt;/tr>
+    &lt;/thead>
+    &lt;tfoot>
+      &lt;tr>
+        &lt;th scope="row">Total&lt;/th>
+        &lt;td colspan="7">4 buildings&lt;/td>
+      &lt;/tr>
+    &lt;/tfoot>
+    &lt;tbody>
+      &lt;tr >
+        &lt;th scope="row">Burj Khalifa&lt;/th>
+        &lt;td>UAE&lt;/td>
+        &lt;td>Dubai&lt;/td>
+        &lt;td>829m&lt;/td>
+        &lt;td>2010&lt;/td>
+        &lt;td>1&lt;/td>
+        &lt;td>&lt;a href="#">details&lt;/a>&lt;/td>
+      &lt;/tr>
+      &lt;tr class="odd">
+        &lt;th scope="row">Clock Tower Hotel&lt;/th>
+        &lt;td>Saudi Arabia&lt;/td>
+        &lt;td>Mecca&lt;/td>
+        &lt;td>601m&lt;/td>
+        &lt;td>2012&lt;/td>
+        &lt;td>2&lt;/td>
+        &lt;td>&lt;a href="#">details&lt;/a>&lt;/td>
+      &lt;/tr>
+      &lt;tr >
+        &lt;th scope="row">Taipei 101&lt;/th>
+        &lt;td>Taiwan&lt;/td>
+        &lt;td>Taipei&lt;/td>
+        &lt;td>509m&lt;/td>
+        &lt;td>2004&lt;/td>
+        &lt;td>3&lt;/td>
+        &lt;td>&lt;a href="#">details&lt;/a>&lt;/td>
+      &lt;/tr>
+      &lt;tr class="odd">
+        &lt;th scope="row">Financial Center&lt;/th>
+        &lt;td>China&lt;/td>
+        &lt;td>Shanghai&lt;/td>
+        &lt;td>492m&lt;/td>
+        &lt;td>2008&lt;/td>
+        &lt;td>4&lt;/td>
+        &lt;td>&lt;a href="#">details&lt;/a>&lt;/td>
+      &lt;/tr>
+    &lt;/tbody>
+  &lt;/table>
+&lt;!-- DC Table Styles I:5 End -->
+
+          </pre>
+        </div>
+      </div>
+      <h3>Table styles 6</h3>
+      <table class="dc_table_s6" summary="Sample Table" style="width:100%;">
+        <caption>
+        Table 6: Sample Table
+        </caption>
+        <thead>
+          <tr>
+            <th scope="col">Structure</th>
+            <th scope="col">Country</th>
+            <th scope="col">City</th>
+            <th scope="col">M</th>
+            <th scope="col">YR</th>
+            <th scope="col">#</th>
+            <th scope="col">...</th>
+          </tr>
+        </thead>
+        <tfoot>
+          <tr>
+            <th scope="row">Total</th>
+            <td colspan="7">4 buildings</td>
+          </tr>
+        </tfoot>
+        <tbody>
+          <tr >
+            <th scope="row">Burj Khalifa</th>
+            <td>UAE</td>
+            <td>Dubai</td>
+            <td>829m</td>
+            <td>2010</td>
+            <td>1</td>
+            <td><a href="#">details</a></td>
+          </tr>
+          <tr class="odd">
+            <th scope="row">Clock Tower Hotel</th>
+            <td>Saudi Arabia</td>
+            <td>Mecca</td>
+            <td>601m</td>
+            <td>2012</td>
+            <td>2</td>
+            <td><a href="#">details</a></td>
+          </tr>
+          <tr >
+            <th scope="row">Taipei 101</th>
+            <td>Taiwan</td>
+            <td>Taipei</td>
+            <td>509m</td>
+            <td>2004</td>
+            <td>3</td>
+            <td><a href="#">details</a></td>
+          </tr>
+          <tr class="odd">
+            <th scope="row">Financial Center</th>
+            <td>China</td>
+            <td>Shanghai</td>
+            <td>492m</td>
+            <td>2008</td>
+            <td>4</td>
+            <td><a href="#">details</a></td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="js_hide_gadget js_minimized">
+        <h4><a href="#" class="js_hs_a">View code:</a></h4>
+        <div class="js_hide_box">
+          <pre class="brush: xml">
+
+&lt;!-- DC Table Styles I:6 Start -->
+  &lt;table class="dc_table_s6" summary="Sample Table" style="width:100%;">
+    &lt;caption>
+    Table 6: Sample Table
+    &lt;/caption>
+    &lt;thead>
+      &lt;tr>
+        &lt;th scope="col">Structure&lt;/th>
+        &lt;th scope="col">Country&lt;/th>
+        &lt;th scope="col">City&lt;/th>
+        &lt;th scope="col">M&lt;/th>
+        &lt;th scope="col">YR&lt;/th>
+        &lt;th scope="col">#&lt;/th>
+        &lt;th scope="col">...&lt;/th>
+      &lt;/tr>
+    &lt;/thead>
+    &lt;tfoot>
+      &lt;tr>
+        &lt;th scope="row">Total&lt;/th>
+        &lt;td colspan="7">4 buildings&lt;/td>
+      &lt;/tr>
+    &lt;/tfoot>
+    &lt;tbody>
+      &lt;tr >
+        &lt;th scope="row">Burj Khalifa&lt;/th>
+        &lt;td>UAE&lt;/td>
+        &lt;td>Dubai&lt;/td>
+        &lt;td>829m&lt;/td>
+        &lt;td>2010&lt;/td>
+        &lt;td>1&lt;/td>
+        &lt;td>&lt;a href="#">details&lt;/a>&lt;/td>
+      &lt;/tr>
+      &lt;tr class="odd">
+        &lt;th scope="row">Clock Tower Hotel&lt;/th>
+        &lt;td>Saudi Arabia&lt;/td>
+        &lt;td>Mecca&lt;/td>
+        &lt;td>601m&lt;/td>
+        &lt;td>2012&lt;/td>
+        &lt;td>2&lt;/td>
+        &lt;td>&lt;a href="#">details&lt;/a>&lt;/td>
+      &lt;/tr>
+      &lt;tr >
+        &lt;th scope="row">Taipei 101&lt;/th>
+        &lt;td>Taiwan&lt;/td>
+        &lt;td>Taipei&lt;/td>
+        &lt;td>509m&lt;/td>
+        &lt;td>2004&lt;/td>
+        &lt;td>3&lt;/td>
+        &lt;td>&lt;a href="#">details&lt;/a>&lt;/td>
+      &lt;/tr>
+      &lt;tr class="odd">
+        &lt;th scope="row">Financial Center&lt;/th>
+        &lt;td>China&lt;/td>
+        &lt;td>Shanghai&lt;/td>
+        &lt;td>492m&lt;/td>
+        &lt;td>2008&lt;/td>
+        &lt;td>4&lt;/td>
+        &lt;td>&lt;a href="#">details&lt;/a>&lt;/td>
+      &lt;/tr>
+    &lt;/tbody>
+  &lt;/table>
+&lt;!-- DC Table Styles I:6 End -->
+
+          </pre>
+        </div>
+      </div>
+      <h3>Table styles 7</h3>
+      <table class="dc_table_s7" summary="Sample Table" style="width:100%;">
+        <caption>
+        Table 7: Sample Table
+        </caption>
+        <thead>
+          <tr>
+            <th scope="col">Structure</th>
+            <th scope="col">Country</th>
+            <th scope="col">City</th>
+            <th scope="col">Height</th>
+            <th scope="col">Built</th>
+            <th scope="col">Rank</th>
+            <th scope="col">...</th>
+          </tr>
+        </thead>
+        <tfoot>
+          <tr>
+            <th scope="row">Total</th>
+            <td colspan="7">4 buildings</td>
+          </tr>
+        </tfoot>
+        <tbody>
+          <tr >
+            <th scope="row">Burj Khalifa</th>
+            <td>UAE</td>
+            <td>Dubai</td>
+            <td>829m</td>
+            <td>2010</td>
+            <td>1</td>
+            <td><a href="#">details</a></td>
+          </tr>
+          <tr class="odd">
+            <th scope="row">Clock Tower Hotel</th>
+            <td>Saudi Arabia</td>
+            <td>Mecca</td>
+            <td>601m</td>
+            <td>2012</td>
+            <td>2</td>
+            <td><a href="#">details</a></td>
+          </tr>
+          <tr >
+            <th scope="row">Taipei 101</th>
+            <td>Taiwan</td>
+            <td>Taipei</td>
+            <td>509m</td>
+            <td>2004</td>
+            <td>3</td>
+            <td><a href="#">details</a></td>
+          </tr>
+          <tr class="odd">
+            <th scope="row">Financial Center</th>
+            <td>China</td>
+            <td>Shanghai</td>
+            <td>492m</td>
+            <td>2008</td>
+            <td>4</td>
+            <td><a href="#">details</a></td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="js_hide_gadget js_minimized">
+        <h4><a href="#" class="js_hs_a">View code:</a></h4>
+        <div class="js_hide_box">
+          <pre class="brush: xml">
+
+&lt;!-- DC Table Styles I:7 Start -->
+  &lt;table class="dc_table_s7" summary="Sample Table" style="width:100%;">
+    &lt;caption>
+    Table 7: Sample Table
+    &lt;/caption>
+    &lt;thead>
+      &lt;tr>
+        &lt;th scope="col">Structure&lt;/th>
+        &lt;th scope="col">Country&lt;/th>
+        &lt;th scope="col">City&lt;/th>
+        &lt;th scope="col">Height&lt;/th>
+        &lt;th scope="col">Built&lt;/th>
+        &lt;th scope="col">Rank&lt;/th>
+        &lt;th scope="col">...&lt;/th>
+      &lt;/tr>
+    &lt;/thead>
+    &lt;tfoot>
+      &lt;tr>
+        &lt;th scope="row">Total&lt;/th>
+        &lt;td colspan="7">4 buildings&lt;/td>
+      &lt;/tr>
+    &lt;/tfoot>
+    &lt;tbody>
+      &lt;tr >
+        &lt;th scope="row">Burj Khalifa&lt;/th>
+        &lt;td>UAE&lt;/td>
+        &lt;td>Dubai&lt;/td>
+        &lt;td>829m&lt;/td>
+        &lt;td>2010&lt;/td>
+        &lt;td>1&lt;/td>
+        &lt;td>&lt;a href="#">details&lt;/a>&lt;/td>
+      &lt;/tr>
+      &lt;tr class="odd">
+        &lt;th scope="row">Clock Tower Hotel&lt;/th>
+        &lt;td>Saudi Arabia&lt;/td>
+        &lt;td>Mecca&lt;/td>
+        &lt;td>601m&lt;/td>
+        &lt;td>2012&lt;/td>
+        &lt;td>2&lt;/td>
+        &lt;td>&lt;a href="#">details&lt;/a>&lt;/td>
+      &lt;/tr>
+      &lt;tr >
+        &lt;th scope="row">Taipei 101&lt;/th>
+        &lt;td>Taiwan&lt;/td>
+        &lt;td>Taipei&lt;/td>
+        &lt;td>509m&lt;/td>
+        &lt;td>2004&lt;/td>
+        &lt;td>3&lt;/td>
+        &lt;td>&lt;a href="#">details&lt;/a>&lt;/td>
+      &lt;/tr>
+      &lt;tr class="odd">
+        &lt;th scope="row">Financial Center&lt;/th>
+        &lt;td>China&lt;/td>
+        &lt;td>Shanghai&lt;/td>
+        &lt;td>492m&lt;/td>
+        &lt;td>2008&lt;/td>
+        &lt;td>4&lt;/td>
+        &lt;td>&lt;a href="#">details&lt;/a>&lt;/td>
+      &lt;/tr>
+    &lt;/tbody>
+  &lt;/table>
+&lt;!-- DC Table Styles I:7 End -->
+
+          </pre>
+        </div>
+      </div>
+      <h3>Table styles 8</h3>
+      <table class="dc_table_s8" summary="Sample Table" style="width:100%;">
+        <caption>
+        Table 8: Sample Table
+        </caption>
+        <thead>
+          <tr>
+            <th scope="col">Structure</th>
+            <th scope="col">Country</th>
+            <th scope="col">City</th>
+            <th scope="col">Height</th>
+            <th scope="col">Built</th>
+            <th scope="col">Rank</th>
+            <th scope="col">...</th>
+          </tr>
+        </thead>
+        <tfoot>
+          <tr>
+            <th scope="row">Total</th>
+            <td colspan="7">4 buildings</td>
+          </tr>
+        </tfoot>
+        <tbody>
+          <tr >
+            <th scope="row">Burj Khalifa</th>
+            <td>UAE</td>
+            <td>Dubai</td>
+            <td>829m</td>
+            <td>2010</td>
+            <td>1</td>
+            <td><a href="#">details</a></td>
+          </tr>
+          <tr class="odd">
+            <th scope="row">Clock Tower Hotel</th>
+            <td>Saudi Arabia</td>
+            <td>Mecca</td>
+            <td>601m</td>
+            <td>2012</td>
+            <td>2</td>
+            <td><a href="#">details</a></td>
+          </tr>
+          <tr >
+            <th scope="row">Taipei 101</th>
+            <td>Taiwan</td>
+            <td>Taipei</td>
+            <td>509m</td>
+            <td>2004</td>
+            <td>3</td>
+            <td><a href="#">details</a></td>
+          </tr>
+          <tr class="odd">
+            <th scope="row">Financial Center</th>
+            <td>China</td>
+            <td>Shanghai</td>
+            <td>492m</td>
+            <td>2008</td>
+            <td>4</td>
+            <td><a href="#">details</a></td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="js_hide_gadget js_minimized">
+        <h4><a href="#" class="js_hs_a">View code:</a></h4>
+        <div class="js_hide_box">
+          <pre class="brush: xml">
+
+&lt;!-- DC Table Styles I:8 Start -->
+  &lt;table class="dc_table_s8" summary="Sample Table" style="width:100%;">
+    &lt;caption>
+    Table 8: Sample Table
+    &lt;/caption>
+    &lt;thead>
+      &lt;tr>
+        &lt;th scope="col">Structure&lt;/th>
+        &lt;th scope="col">Country&lt;/th>
+        &lt;th scope="col">City&lt;/th>
+        &lt;th scope="col">Height&lt;/th>
+        &lt;th scope="col">Built&lt;/th>
+        &lt;th scope="col">Rank&lt;/th>
+        &lt;th scope="col">...&lt;/th>
+      &lt;/tr>
+    &lt;/thead>
+    &lt;tfoot>
+      &lt;tr>
+        &lt;th scope="row">Total&lt;/th>
+        &lt;td colspan="7">4 buildings&lt;/td>
+      &lt;/tr>
+    &lt;/tfoot>
+    &lt;tbody>
+      &lt;tr >
+        &lt;th scope="row">Burj Khalifa&lt;/th>
+        &lt;td>UAE&lt;/td>
+        &lt;td>Dubai&lt;/td>
+        &lt;td>829m&lt;/td>
+        &lt;td>2010&lt;/td>
+        &lt;td>1&lt;/td>
+        &lt;td>&lt;a href="#">details&lt;/a>&lt;/td>
+      &lt;/tr>
+      &lt;tr class="odd">
+        &lt;th scope="row">Clock Tower Hotel&lt;/th>
+        &lt;td>Saudi Arabia&lt;/td>
+        &lt;td>Mecca&lt;/td>
+        &lt;td>601m&lt;/td>
+        &lt;td>2012&lt;/td>
+        &lt;td>2&lt;/td>
+        &lt;td>&lt;a href="#">details&lt;/a>&lt;/td>
+      &lt;/tr>
+      &lt;tr >
+        &lt;th scope="row">Taipei 101&lt;/th>
+        &lt;td>Taiwan&lt;/td>
+        &lt;td>Taipei&lt;/td>
+        &lt;td>509m&lt;/td>
+        &lt;td>2004&lt;/td>
+        &lt;td>3&lt;/td>
+        &lt;td>&lt;a href="#">details&lt;/a>&lt;/td>
+      &lt;/tr>
+      &lt;tr class="odd">
+        &lt;th scope="row">Financial Center&lt;/th>
+        &lt;td>China&lt;/td>
+        &lt;td>Shanghai&lt;/td>
+        &lt;td>492m&lt;/td>
+        &lt;td>2008&lt;/td>
+        &lt;td>4&lt;/td>
+        &lt;td>&lt;a href="#">details&lt;/a>&lt;/td>
+      &lt;/tr>
+    &lt;/tbody>
+  &lt;/table>
+&lt;!-- DC Table Styles I:8 End -->
+
+          </pre>
+        </div>
+      </div>
+      <h3>Table styles 9</h3>
+      <table class="dc_table_s9" summary="Sample Table" style="width:100%;">
+        <caption>
+        Table 9: Sample Table
+        </caption>
+        <thead>
+          <tr>
+            <th scope="col">Structure</th>
+            <th scope="col">Country</th>
+            <th scope="col">City</th>
+            <th scope="col">Height</th>
+            <th scope="col">Built</th>
+            <th scope="col">Rank</th>
+            <th scope="col">...</th>
+          </tr>
+        </thead>
+        <tfoot>
+          <tr>
+            <th scope="row">Total</th>
+            <td colspan="7">4 buildings</td>
+          </tr>
+        </tfoot>
+        <tbody>
+          <tr >
+            <th scope="row">Burj Khalifa</th>
+            <td>UAE</td>
+            <td>Dubai</td>
+            <td>829m</td>
+            <td>2010</td>
+            <td>1</td>
+            <td><a href="#">details</a></td>
+          </tr>
+          <tr class="odd">
+            <th scope="row">Clock Tower Hotel</th>
+            <td>Saudi Arabia</td>
+            <td>Mecca</td>
+            <td>601m</td>
+            <td>2012</td>
+            <td>2</td>
+            <td><a href="#">details</a></td>
+          </tr>
+          <tr >
+            <th scope="row">Taipei 101</th>
+            <td>Taiwan</td>
+            <td>Taipei</td>
+            <td>509m</td>
+            <td>2004</td>
+            <td>3</td>
+            <td><a href="#">details</a></td>
+          </tr>
+          <tr class="odd">
+            <th scope="row">Financial Center</th>
+            <td>China</td>
+            <td>Shanghai</td>
+            <td>492m</td>
+            <td>2008</td>
+            <td>4</td>
+            <td><a href="#">details</a></td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="js_hide_gadget js_minimized">
+        <h4><a href="#" class="js_hs_a">View code:</a></h4>
+        <div class="js_hide_box">
+          <pre class="brush: xml">
+
+&lt;!-- DC Table Styles I:9 Start -->
+  &lt;table class="dc_table_s9" summary="Sample Table" style="width:100%;">
+    &lt;caption>
+    Table 9: Sample Table
+    &lt;/caption>
+    &lt;thead>
+      &lt;tr>
+        &lt;th scope="col">Structure&lt;/th>
+        &lt;th scope="col">Country&lt;/th>
+        &lt;th scope="col">City&lt;/th>
+        &lt;th scope="col">Height&lt;/th>
+        &lt;th scope="col">Built&lt;/th>
+        &lt;th scope="col">Rank&lt;/th>
+        &lt;th scope="col">...&lt;/th>
+      &lt;/tr>
+    &lt;/thead>
+    &lt;tfoot>
+      &lt;tr>
+        &lt;th scope="row">Total&lt;/th>
+        &lt;td colspan="7">4 buildings&lt;/td>
+      &lt;/tr>
+    &lt;/tfoot>
+    &lt;tbody>
+      &lt;tr >
+        &lt;th scope="row">Burj Khalifa&lt;/th>
+        &lt;td>UAE&lt;/td>
+        &lt;td>Dubai&lt;/td>
+        &lt;td>829m&lt;/td>
+        &lt;td>2010&lt;/td>
+        &lt;td>1&lt;/td>
+        &lt;td>&lt;a href="#">details&lt;/a>&lt;/td>
+      &lt;/tr>
+      &lt;tr class="odd">
+        &lt;th scope="row">Clock Tower Hotel&lt;/th>
+        &lt;td>Saudi Arabia&lt;/td>
+        &lt;td>Mecca&lt;/td>
+        &lt;td>601m&lt;/td>
+        &lt;td>2012&lt;/td>
+        &lt;td>2&lt;/td>
+        &lt;td>&lt;a href="#">details&lt;/a>&lt;/td>
+      &lt;/tr>
+      &lt;tr >
+        &lt;th scope="row">Taipei 101&lt;/th>
+        &lt;td>Taiwan&lt;/td>
+        &lt;td>Taipei&lt;/td>
+        &lt;td>509m&lt;/td>
+        &lt;td>2004&lt;/td>
+        &lt;td>3&lt;/td>
+        &lt;td>&lt;a href="#">details&lt;/a>&lt;/td>
+      &lt;/tr>
+      &lt;tr class="odd">
+        &lt;th scope="row">Financial Center&lt;/th>
+        &lt;td>China&lt;/td>
+        &lt;td>Shanghai&lt;/td>
+        &lt;td>492m&lt;/td>
+        &lt;td>2008&lt;/td>
+        &lt;td>4&lt;/td>
+        &lt;td>&lt;a href="#">details&lt;/a>&lt;/td>
+      &lt;/tr>
+    &lt;/tbody>
+  &lt;/table>
+&lt;!-- DC Table Styles I:9 End -->
+
+          </pre>
+        </div>
+      </div>
+      <h3>Table styles 10</h3>
+      <table class="dc_table_s10" summary="Sample Table" style="width:100%;">
+        <caption>
+        Table 10: Sample Table
+        </caption>
+        <thead>
+          <tr>
+            <th scope="col">Structure</th>
+            <th scope="col">Country</th>
+            <th scope="col">City</th>
+            <th scope="col">Height</th>
+            <th scope="col">Built</th>
+            <th scope="col">Rank</th>
+            <th scope="col">...</th>
+          </tr>
+        </thead>
+        <tfoot>
+          <tr>
+            <th scope="row">Total</th>
+            <td colspan="7">4 buildings</td>
+          </tr>
+        </tfoot>
+        <tbody>
+          <tr >
+            <th scope="row">Burj Khalifa</th>
+            <td>UAE</td>
+            <td>Dubai</td>
+            <td>829m</td>
+            <td>2010</td>
+            <td>1</td>
+            <td><a href="#">details</a></td>
+          </tr>
+          <tr class="odd">
+            <th scope="row">Clock Tower Hotel</th>
+            <td>Saudi Arabia</td>
+            <td>Mecca</td>
+            <td>601m</td>
+            <td>2012</td>
+            <td>2</td>
+            <td><a href="#">details</a></td>
+          </tr>
+          <tr >
+            <th scope="row">Taipei 101</th>
+            <td>Taiwan</td>
+            <td>Taipei</td>
+            <td>509m</td>
+            <td>2004</td>
+            <td>3</td>
+            <td><a href="#">details</a></td>
+          </tr>
+          <tr class="odd">
+            <th scope="row">Financial Center</th>
+            <td>China</td>
+            <td>Shanghai</td>
+            <td>492m</td>
+            <td>2008</td>
+            <td>4</td>
+            <td><a href="#">details</a></td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="js_hide_gadget js_minimized">
+        <h4><a href="#" class="js_hs_a">View code:</a></h4>
+        <div class="js_hide_box">
+          <pre class="brush: xml">
+
+&lt;!-- DC Table Styles I:10 Start -->
+  &lt;table class="dc_table_s10" summary="Sample Table" style="width:100%;">
+    &lt;caption>
+    Table 10: Sample Table
+    &lt;/caption>
+    &lt;thead>
+      &lt;tr>
+        &lt;th scope="col">Structure&lt;/th>
+        &lt;th scope="col">Country&lt;/th>
+        &lt;th scope="col">City&lt;/th>
+        &lt;th scope="col">Height&lt;/th>
+        &lt;th scope="col">Built&lt;/th>
+        &lt;th scope="col">Rank&lt;/th>
+        &lt;th scope="col">...&lt;/th>
+      &lt;/tr>
+    &lt;/thead>
+    &lt;tfoot>
+      &lt;tr>
+        &lt;th scope="row">Total&lt;/th>
+        &lt;td colspan="7">4 buildings&lt;/td>
+      &lt;/tr>
+    &lt;/tfoot>
+    &lt;tbody>
+      &lt;tr >
+        &lt;th scope="row">Burj Khalifa&lt;/th>
+        &lt;td>UAE&lt;/td>
+        &lt;td>Dubai&lt;/td>
+        &lt;td>829m&lt;/td>
+        &lt;td>2010&lt;/td>
+        &lt;td>1&lt;/td>
+        &lt;td>&lt;a href="#">details&lt;/a>&lt;/td>
+      &lt;/tr>
+      &lt;tr class="odd">
+        &lt;th scope="row">Clock Tower Hotel&lt;/th>
+        &lt;td>Saudi Arabia&lt;/td>
+        &lt;td>Mecca&lt;/td>
+        &lt;td>601m&lt;/td>
+        &lt;td>2012&lt;/td>
+        &lt;td>2&lt;/td>
+        &lt;td>&lt;a href="#">details&lt;/a>&lt;/td>
+      &lt;/tr>
+      &lt;tr >
+        &lt;th scope="row">Taipei 101&lt;/th>
+        &lt;td>Taiwan&lt;/td>
+        &lt;td>Taipei&lt;/td>
+        &lt;td>509m&lt;/td>
+        &lt;td>2004&lt;/td>
+        &lt;td>3&lt;/td>
+        &lt;td>&lt;a href="#">details&lt;/a>&lt;/td>
+      &lt;/tr>
+      &lt;tr class="odd">
+        &lt;th scope="row">Financial Center&lt;/th>
+        &lt;td>China&lt;/td>
+        &lt;td>Shanghai&lt;/td>
+        &lt;td>492m&lt;/td>
+        &lt;td>2008&lt;/td>
+        &lt;td>4&lt;/td>
+        &lt;td>&lt;a href="#">details&lt;/a>&lt;/td>
+      &lt;/tr>
+    &lt;/tbody>
+  &lt;/table>
+&lt;!-- DC Table Styles I:10 End -->
+
+          </pre>
+        </div>
+      </div>
+      <h3>Table styles 11</h3>
+      <table class="dc_table_s11" summary="Sample Table" style="width:100%;">
+        <caption>
+        Table 11: Sample Table
+        </caption>
+        <thead>
+          <tr>
+            <th scope="col">Structure</th>
+            <th scope="col">Country</th>
+            <th scope="col">City</th>
+            <th scope="col">Height</th>
+            <th scope="col">Built</th>
+            <th scope="col">Rank</th>
+            <th scope="col">...</th>
+          </tr>
+        </thead>
+        <tfoot>
+          <tr>
+            <th scope="row">Total</th>
+            <td colspan="7">4 buildings</td>
+          </tr>
+        </tfoot>
+        <tbody>
+          <tr >
+            <th scope="row">Burj Khalifa</th>
+            <td>UAE</td>
+            <td>Dubai</td>
+            <td>829m</td>
+            <td>2010</td>
+            <td>1</td>
+            <td><a href="#">details</a></td>
+          </tr>
+          <tr class="odd">
+            <th scope="row">Clock Tower Hotel</th>
+            <td>Saudi Arabia</td>
+            <td>Mecca</td>
+            <td>601m</td>
+            <td>2012</td>
+            <td>2</td>
+            <td><a href="#">details</a></td>
+          </tr>
+          <tr >
+            <th scope="row">Taipei 101</th>
+            <td>Taiwan</td>
+            <td>Taipei</td>
+            <td>509m</td>
+            <td>2004</td>
+            <td>3</td>
+            <td><a href="#">details</a></td>
+          </tr>
+          <tr class="odd">
+            <th scope="row">Financial Center</th>
+            <td>China</td>
+            <td>Shanghai</td>
+            <td>492m</td>
+            <td>2008</td>
+            <td>4</td>
+            <td><a href="#">details</a></td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="js_hide_gadget js_minimized">
+        <h4><a href="#" class="js_hs_a">View code:</a></h4>
+        <div class="js_hide_box">
+          <pre class="brush: xml">
+
+&lt;!-- DC Table Styles I:11 Start -->
+  &lt;table class="dc_table_s11" summary="Sample Table" style="width:100%;">
+    &lt;caption>
+    Table 11: Sample Table
+    &lt;/caption>
+    &lt;thead>
+      &lt;tr>
+        &lt;th scope="col">Structure&lt;/th>
+        &lt;th scope="col">Country&lt;/th>
+        &lt;th scope="col">City&lt;/th>
+        &lt;th scope="col">Height&lt;/th>
+        &lt;th scope="col">Built&lt;/th>
+        &lt;th scope="col">Rank&lt;/th>
+        &lt;th scope="col">...&lt;/th>
+      &lt;/tr>
+    &lt;/thead>
+    &lt;tfoot>
+      &lt;tr>
+        &lt;th scope="row">Total&lt;/th>
+        &lt;td colspan="7">4 buildings&lt;/td>
+      &lt;/tr>
+    &lt;/tfoot>
+    &lt;tbody>
+      &lt;tr >
+        &lt;th scope="row">Burj Khalifa&lt;/th>
+        &lt;td>UAE&lt;/td>
+        &lt;td>Dubai&lt;/td>
+        &lt;td>829m&lt;/td>
+        &lt;td>2010&lt;/td>
+        &lt;td>1&lt;/td>
+        &lt;td>&lt;a href="#">details&lt;/a>&lt;/td>
+      &lt;/tr>
+      &lt;tr class="odd">
+        &lt;th scope="row">Clock Tower Hotel&lt;/th>
+        &lt;td>Saudi Arabia&lt;/td>
+        &lt;td>Mecca&lt;/td>
+        &lt;td>601m&lt;/td>
+        &lt;td>2012&lt;/td>
+        &lt;td>2&lt;/td>
+        &lt;td>&lt;a href="#">details&lt;/a>&lt;/td>
+      &lt;/tr>
+      &lt;tr >
+        &lt;th scope="row">Taipei 101&lt;/th>
+        &lt;td>Taiwan&lt;/td>
+        &lt;td>Taipei&lt;/td>
+        &lt;td>509m&lt;/td>
+        &lt;td>2004&lt;/td>
+        &lt;td>3&lt;/td>
+        &lt;td>&lt;a href="#">details&lt;/a>&lt;/td>
+      &lt;/tr>
+      &lt;tr class="odd">
+        &lt;th scope="row">Financial Center&lt;/th>
+        &lt;td>China&lt;/td>
+        &lt;td>Shanghai&lt;/td>
+        &lt;td>492m&lt;/td>
+        &lt;td>2008&lt;/td>
+        &lt;td>4&lt;/td>
+        &lt;td>&lt;a href="#">details&lt;/a>&lt;/td>
+      &lt;/tr>
+    &lt;/tbody>
+  &lt;/table>
+&lt;!-- DC Table Styles I:11 End -->
+
+          </pre>
+        </div>
+      </div>
+      <h3>Table styles 12</h3>
+      <table class="dc_table_s12" summary="Sample Table" style="width:100%;">
+        <caption>
+        Table 12: Sample Table
+        </caption>
+        <thead>
+          <tr>
+            <th scope="col">Structure</th>
+            <th scope="col">Country</th>
+            <th scope="col">City</th>
+            <th scope="col">Height</th>
+            <th scope="col">Built</th>
+            <th scope="col">Rank</th>
+            <th scope="col">...</th>
+          </tr>
+        </thead>
+        <tfoot>
+          <tr>
+            <th scope="row">Total</th>
+            <td colspan="7">4 buildings</td>
+          </tr>
+        </tfoot>
+        <tbody>
+          <tr >
+            <th scope="row">Burj Khalifa</th>
+            <td>UAE</td>
+            <td>Dubai</td>
+            <td>829m</td>
+            <td>2010</td>
+            <td>1</td>
+            <td><a href="#">details</a></td>
+          </tr>
+          <tr class="odd">
+            <th scope="row">Clock Tower Hotel</th>
+            <td>Saudi Arabia</td>
+            <td>Mecca</td>
+            <td>601m</td>
+            <td>2012</td>
+            <td>2</td>
+            <td><a href="#">details</a></td>
+          </tr>
+          <tr >
+            <th scope="row">Taipei 101</th>
+            <td>Taiwan</td>
+            <td>Taipei</td>
+            <td>509m</td>
+            <td>2004</td>
+            <td>3</td>
+            <td><a href="#">details</a></td>
+          </tr>
+          <tr class="odd">
+            <th scope="row">Financial Center</th>
+            <td>China</td>
+            <td>Shanghai</td>
+            <td>492m</td>
+            <td>2008</td>
+            <td>4</td>
+            <td><a href="#">details</a></td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="js_hide_gadget js_minimized">
+        <h4><a href="#" class="js_hs_a">View code:</a></h4>
+        <div class="js_hide_box">
+          <pre class="brush: xml">
+
+&lt;!-- DC Table Styles I:12 Start -->
+  &lt;table class="dc_table_s12" summary="Sample Table" style="width:100%;">
+    &lt;caption>
+    Table 12: Sample Table
+    &lt;/caption>
+    &lt;thead>
+      &lt;tr>
+        &lt;th scope="col">Structure&lt;/th>
+        &lt;th scope="col">Country&lt;/th>
+        &lt;th scope="col">City&lt;/th>
+        &lt;th scope="col">Height&lt;/th>
+        &lt;th scope="col">Built&lt;/th>
+        &lt;th scope="col">Rank&lt;/th>
+        &lt;th scope="col">...&lt;/th>
+      &lt;/tr>
+    &lt;/thead>
+    &lt;tfoot>
+      &lt;tr>
+        &lt;th scope="row">Total&lt;/th>
+        &lt;td colspan="7">4 buildings&lt;/td>
+      &lt;/tr>
+    &lt;/tfoot>
+    &lt;tbody>
+      &lt;tr >
+        &lt;th scope="row">Burj Khalifa&lt;/th>
+        &lt;td>UAE&lt;/td>
+        &lt;td>Dubai&lt;/td>
+        &lt;td>829m&lt;/td>
+        &lt;td>2010&lt;/td>
+        &lt;td>1&lt;/td>
+        &lt;td>&lt;a href="#">details&lt;/a>&lt;/td>
+      &lt;/tr>
+      &lt;tr class="odd">
+        &lt;th scope="row">Clock Tower Hotel&lt;/th>
+        &lt;td>Saudi Arabia&lt;/td>
+        &lt;td>Mecca&lt;/td>
+        &lt;td>601m&lt;/td>
+        &lt;td>2012&lt;/td>
+        &lt;td>2&lt;/td>
+        &lt;td>&lt;a href="#">details&lt;/a>&lt;/td>
+      &lt;/tr>
+      &lt;tr >
+        &lt;th scope="row">Taipei 101&lt;/th>
+        &lt;td>Taiwan&lt;/td>
+        &lt;td>Taipei&lt;/td>
+        &lt;td>509m&lt;/td>
+        &lt;td>2004&lt;/td>
+        &lt;td>3&lt;/td>
+        &lt;td>&lt;a href="#">details&lt;/a>&lt;/td>
+      &lt;/tr>
+      &lt;tr class="odd">
+        &lt;th scope="row">Financial Center&lt;/th>
+        &lt;td>China&lt;/td>
+        &lt;td>Shanghai&lt;/td>
+        &lt;td>492m&lt;/td>
+        &lt;td>2008&lt;/td>
+        &lt;td>4&lt;/td>
+        &lt;td>&lt;a href="#">details&lt;/a>&lt;/td>
+      &lt;/tr>
+    &lt;/tbody>
+  &lt;/table>
+&lt;!-- DC Table Styles I:12 End -->
+
+          </pre>
+        </div>
+      </div>
+      <h3>Table styles 13</h3>
+      <table class="dc_table_s13" summary="Sample Table" style="width:100%;">
+        <caption>
+        Table 13: Sample Table
+        </caption>
+        <thead>
+          <tr>
+            <th scope="col">Structure</th>
+            <th scope="col">Country</th>
+            <th scope="col">City</th>
+            <th scope="col">Height</th>
+            <th scope="col">Built</th>
+            <th scope="col">Rank</th>
+            <th scope="col">...</th>
+          </tr>
+        </thead>
+        <tfoot>
+          <tr>
+            <th scope="row">Total</th>
+            <td colspan="7">4 buildings</td>
+          </tr>
+        </tfoot>
+        <tbody>
+          <tr >
+            <th scope="row">Burj Khalifa</th>
+            <td>UAE</td>
+            <td>Dubai</td>
+            <td>829m</td>
+            <td>2010</td>
+            <td>1</td>
+            <td><a href="#">details</a></td>
+          </tr>
+          <tr class="odd">
+            <th scope="row">Clock Tower Hotel</th>
+            <td>Saudi Arabia</td>
+            <td>Mecca</td>
+            <td>601m</td>
+            <td>2012</td>
+            <td>2</td>
+            <td><a href="#">details</a></td>
+          </tr>
+          <tr >
+            <th scope="row">Taipei 101</th>
+            <td>Taiwan</td>
+            <td>Taipei</td>
+            <td>509m</td>
+            <td>2004</td>
+            <td>3</td>
+            <td><a href="#">details</a></td>
+          </tr>
+          <tr class="odd">
+            <th scope="row">Financial Center</th>
+            <td>China</td>
+            <td>Shanghai</td>
+            <td>492m</td>
+            <td>2008</td>
+            <td>4</td>
+            <td><a href="#">details</a></td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="js_hide_gadget js_minimized">
+        <h4><a href="#" class="js_hs_a">Images, view code:</a></h4>
+        <div class="js_hide_box">
+          <pre class="brush: xml">
+
+&lt;!-- DC Table Styles I:13 Start -->
+  &lt;table class="dc_table_s13" summary="Sample Table" style="width:100%;">
+    &lt;caption>
+    Table 13: Sample Table
+    &lt;/caption>
+    &lt;thead>
+      &lt;tr>
+        &lt;th scope="col">Structure&lt;/th>
+        &lt;th scope="col">Country&lt;/th>
+        &lt;th scope="col">City&lt;/th>
+        &lt;th scope="col">Height&lt;/th>
+        &lt;th scope="col">Built&lt;/th>
+        &lt;th scope="col">Rank&lt;/th>
+        &lt;th scope="col">...&lt;/th>
+      &lt;/tr>
+    &lt;/thead>
+    &lt;tfoot>
+      &lt;tr>
+        &lt;th scope="row">Total&lt;/th>
+        &lt;td colspan="7">4 buildings&lt;/td>
+      &lt;/tr>
+    &lt;/tfoot>
+    &lt;tbody>
+      &lt;tr >
+        &lt;th scope="row">Burj Khalifa&lt;/th>
+        &lt;td>UAE&lt;/td>
+        &lt;td>Dubai&lt;/td>
+        &lt;td>829m&lt;/td>
+        &lt;td>2010&lt;/td>
+        &lt;td>1&lt;/td>
+        &lt;td>&lt;a href="#">details&lt;/a>&lt;/td>
+      &lt;/tr>
+      &lt;tr class="odd">
+        &lt;th scope="row">Clock Tower Hotel&lt;/th>
+        &lt;td>Saudi Arabia&lt;/td>
+        &lt;td>Mecca&lt;/td>
+        &lt;td>601m&lt;/td>
+        &lt;td>2012&lt;/td>
+        &lt;td>2&lt;/td>
+        &lt;td>&lt;a href="#">details&lt;/a>&lt;/td>
+      &lt;/tr>
+      &lt;tr >
+        &lt;th scope="row">Taipei 101&lt;/th>
+        &lt;td>Taiwan&lt;/td>
+        &lt;td>Taipei&lt;/td>
+        &lt;td>509m&lt;/td>
+        &lt;td>2004&lt;/td>
+        &lt;td>3&lt;/td>
+        &lt;td>&lt;a href="#">details&lt;/a>&lt;/td>
+      &lt;/tr>
+      &lt;tr class="odd">
+        &lt;th scope="row">Financial Center&lt;/th>
+        &lt;td>China&lt;/td>
+        &lt;td>Shanghai&lt;/td>
+        &lt;td>492m&lt;/td>
+        &lt;td>2008&lt;/td>
+        &lt;td>4&lt;/td>
+        &lt;td>&lt;a href="#">details&lt;/a>&lt;/td>
+      &lt;/tr>
+    &lt;/tbody>
+  &lt;/table>
+&lt;!-- DC Table Styles I:13 End -->
+
+          </pre>
+        </div>
+      </div>
+      <br />
+      <br />
+      <h3>Gradient Table</h3>
+      <br />
+      <script type="text/javascript">
+ $(function() {
+		/* For zebra striping */
+        $("table tr:nth-child(odd)").addClass("odd-row");
+		/* For cell text alignment */
+		$("table td:first-child, table th:first-child").addClass("first");
+		/* For removing the last border */
+		$("table td:last-child, table th:last-child").addClass("last");
+});
+</script>
+      <table class="dc_tables2_0" cellspacing="0" summary="The Features" style="width:100%;">
+        <tr>
+          <th>Features</th>
+          <th>(DC)</th>
+          <th>Others</th>
+        </tr>
+        <tr>
+          <td>Number of Codes</td>
+          <td>7,000</td>
+          <td>Single Buy</td>
+        </tr>
+        <tr>
+          <td>XHTML Slicing</td>
+          <td>Yes</td>
+          <td>Yes</td>
+        </tr>
+        <tr>
+          <td>Number of Shortcodes</td>
+          <td>1500</td>
+          <td>40</td>
+        </tr>
+        <tr>
+          <td>Sliders</td>
+          <td>20</td>
+          <td>3</td>
+        </tr>
+      </table>
+      <div class="clear"></div>
+      <div class="js_hide_gadget js_minimized">
+        <h4><a href="#" class="js_hs_a">View code:</a></h4>
+        <div class="js_hide_box">
+          <pre class="brush: xml">
+
+&lt;!-- jQuery Library (skip this step if already called on page ) -->
+&lt;script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript">&lt;/script> &lt;!-- (do not call twice) -->
+
+&lt;!-- DC Table Styles II:Gradient Settings -->
+&lt;script type="text/javascript">
+ $(function() {
+		/* For zebra striping */
+        $("table tr:nth-child(odd)").addClass("odd-row");
+		/* For cell text alignment */
+		$("table td:first-child, table th:first-child").addClass("first");
+		/* For removing the last border */
+		$("table td:last-child, table th:last-child").addClass("last");
+});
+&lt;/script>
+
+&lt;!-- DC Table Styles II:Gradient Start -->
+&lt;table class="dc_tables2_0" cellspacing="0" summary="The Features" style="width:100%;">
+  &lt;tr>
+    &lt;th>Features&lt;/th>
+    &lt;th>(DC)&lt;/th>
+    &lt;th>Others&lt;/th>
+  &lt;/tr>
+  &lt;tr>
+    &lt;td>Number of Codes&lt;/td>
+    &lt;td>7,000&lt;/td>
+    &lt;td>Single Buy&lt;/td>
+  &lt;/tr>
+  &lt;tr>
+    &lt;td>XHTML Slicing&lt;/td>
+    &lt;td>Yes&lt;/td>
+    &lt;td>Yes&lt;/td>
+  &lt;/tr>
+  &lt;tr>
+    &lt;td>Number of Shortcodes&lt;/td>
+    &lt;td>1500&lt;/td>
+    &lt;td>40&lt;/td>
+  &lt;/tr>
+  &lt;tr>
+    &lt;td>Sliders&lt;/td>
+    &lt;td>20&lt;/td>
+    &lt;td>3&lt;/td>
+  &lt;/tr>
+&lt;/table>
+&lt;!-- DC Table Styles II:Gradient End -->
+
+          </pre>
+        </div>
+      </div>
+      <h3>Table style 1</h3>
+      <table class="dc_tables2_1" summary="Employee Pay Sheet" style="width:100%;">
+        <thead>
+          <tr>
+            <th scope="col">Employee</th>
+            <th scope="col">Salary</th>
+            <th scope="col">Bonus</th>
+            <th scope="col">Supervisor</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>John D. Wells</td>
+            <td>$300</td>
+            <td>$50</td>
+            <td>Bob</td>
+          </tr>
+          <tr>
+            <td>Fred Max</td>
+            <td>$150</td>
+            <td>-</td>
+            <td>Annie</td>
+          </tr>
+          <tr>
+            <td>Sam Cook</td>
+            <td>$200</td>
+            <td>$35</td>
+            <td>Andy</td>
+          </tr>
+          <tr>
+            <td>Tom H. Williams</td>
+            <td>$175</td>
+            <td>$25</td>
+            <td>Annie</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="js_hide_gadget js_minimized">
+        <h4><a href="#" class="js_hs_a">View code:</a></h4>
+        <div class="js_hide_box">
+          <pre class="brush: xml">
+
+&lt;!-- DC Table Styles II:1 Start -->
+  &lt;table class="dc_tables2_1" summary="Employee Pay Sheet" style="width:100%;">
+    &lt;thead>
+      &lt;tr>
+        &lt;th scope="col">Employee&lt;/th>
+        &lt;th scope="col">Salary&lt;/th>
+        &lt;th scope="col">Bonus&lt;/th>
+        &lt;th scope="col">Supervisor&lt;/th>
+      &lt;/tr>
+    &lt;/thead>
+    &lt;tbody>
+      &lt;tr>
+        &lt;td>John D. Wells&lt;/td>
+        &lt;td>$300&lt;/td>
+        &lt;td>$50&lt;/td>
+        &lt;td>Bob&lt;/td>
+      &lt;/tr>
+      &lt;tr>
+        &lt;td>Fred Max&lt;/td>
+        &lt;td>$150&lt;/td>
+        &lt;td>-&lt;/td>
+        &lt;td>Annie&lt;/td>
+      &lt;/tr>
+      &lt;tr>
+        &lt;td>Sam Cook&lt;/td>
+        &lt;td>$200&lt;/td>
+        &lt;td>$35&lt;/td>
+        &lt;td>Andy&lt;/td>
+      &lt;/tr>
+      &lt;tr>
+        &lt;td>Tom H. Williams&lt;/td>
+        &lt;td>$175&lt;/td>
+        &lt;td>$25&lt;/td>
+        &lt;td>Annie&lt;/td>
+      &lt;/tr>
+    &lt;/tbody>
+  &lt;/table>
+&lt;!-- DC Table Styles II:1 End -->
+
+          </pre>
+        </div>
+      </div>
+      <h3>Table style 2</h3>
+      <table class="dc_tables2_2" summary="Employee Pay Sheet" style="width:100%;">
+        <thead>
+          <tr>
+            <th scope="col">Employee</th>
+            <th scope="col">Salary</th>
+            <th scope="col">Bonus</th>
+            <th scope="col">Supervisor</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>John D. Wells</td>
+            <td>$300</td>
+            <td>$50</td>
+            <td>Bob</td>
+          </tr>
+          <tr>
+            <td>Fred Max</td>
+            <td>$150</td>
+            <td>-</td>
+            <td>Annie</td>
+          </tr>
+          <tr>
+            <td>Sam Cook</td>
+            <td>$200</td>
+            <td>$35</td>
+            <td>Andy</td>
+          </tr>
+          <tr>
+            <td>Tom H. Williams</td>
+            <td>$175</td>
+            <td>$25</td>
+            <td>Annie</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="js_hide_gadget js_minimized">
+        <h4><a href="#" class="js_hs_a">View code:</a></h4>
+        <div class="js_hide_box">
+          <pre class="brush: xml">
+
+&lt;!-- DC Table Styles II:2 Start -->
+  &lt;table class="dc_tables2_2" summary="Employee Pay Sheet" style="width:100%;">
+    &lt;thead>
+      &lt;tr>
+        &lt;th scope="col">Employee&lt;/th>
+        &lt;th scope="col">Salary&lt;/th>
+        &lt;th scope="col">Bonus&lt;/th>
+        &lt;th scope="col">Supervisor&lt;/th>
+      &lt;/tr>
+    &lt;/thead>
+    &lt;tbody>
+      &lt;tr>
+        &lt;td>John D. Wells&lt;/td>
+        &lt;td>$300&lt;/td>
+        &lt;td>$50&lt;/td>
+        &lt;td>Bob&lt;/td>
+      &lt;/tr>
+      &lt;tr>
+        &lt;td>Fred Max&lt;/td>
+        &lt;td>$150&lt;/td>
+        &lt;td>-&lt;/td>
+        &lt;td>Annie&lt;/td>
+      &lt;/tr>
+      &lt;tr>
+        &lt;td>Sam Cook&lt;/td>
+        &lt;td>$200&lt;/td>
+        &lt;td>$35&lt;/td>
+        &lt;td>Andy&lt;/td>
+      &lt;/tr>
+      &lt;tr>
+        &lt;td>Tom H. Williams&lt;/td>
+        &lt;td>$175&lt;/td>
+        &lt;td>$25&lt;/td>
+        &lt;td>Annie&lt;/td>
+      &lt;/tr>
+    &lt;/tbody>
+  &lt;/table>
+&lt;!-- DC Table Styles II:2 End -->
+
+          </pre>
+        </div>
+      </div>
+      <h3>Table style 3</h3>
+      <table class="dc_tables2_3" summary="Most Favorite Movies" style="width:100%;">
+        <thead>
+          <tr>
+            <th scope="col">Comedy</th>
+            <th scope="col">Adventure</th>
+            <th scope="col">Action</th>
+            <th scope="col">Children</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Scary Movie</td>
+            <td>Indiana Jones</td>
+            <td>Inception</td>
+            <td>Wall-E</td>
+          </tr>
+          <tr>
+            <td>Epic Movie</td>
+            <td>Star Wars</td>
+            <td>The Avengers</td>
+            <td>Madagascar</td>
+          </tr>
+          <tr>
+            <td>Spartan</td>
+            <td>LOTR</td>
+            <td>Die Hard</td>
+            <td>Finding Nemo</td>
+          </tr>
+          <tr>
+            <td>Dr. Dolittle</td>
+            <td>John Carter</td>
+            <td>Prometheus</td>
+            <td>A Bug's Life</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="js_hide_gadget js_minimized">
+        <h4><a href="#" class="js_hs_a">View code:</a></h4>
+        <div class="js_hide_box">
+          <pre class="brush: xml">
+
+&lt;!-- DC Table Styles II:3 Start -->
+  &lt;table class="dc_tables2_3" summary="Most Favorite Movies" style="width:100%;">
+    &lt;thead>
+      &lt;tr>
+        &lt;th scope="col">Comedy&lt;/th>
+        &lt;th scope="col">Adventure&lt;/th>
+        &lt;th scope="col">Action&lt;/th>
+        &lt;th scope="col">Children&lt;/th>
+      &lt;/tr>
+    &lt;/thead>
+    &lt;tbody>
+      &lt;tr>
+        &lt;td>Scary Movie&lt;/td>
+        &lt;td>Indiana Jones&lt;/td>
+        &lt;td>Inception&lt;/td>
+        &lt;td>Wall-E&lt;/td>
+      &lt;/tr>
+      &lt;tr>
+        &lt;td>Epic Movie&lt;/td>
+        &lt;td>Star Wars&lt;/td>
+        &lt;td>The Avengers&lt;/td>
+        &lt;td>Madagascar&lt;/td>
+      &lt;/tr>
+      &lt;tr>
+        &lt;td>Spartan&lt;/td>
+        &lt;td>LOTR&lt;/td>
+        &lt;td>Die Hard&lt;/td>
+        &lt;td>Finding Nemo&lt;/td>
+      &lt;/tr>
+      &lt;tr>
+        &lt;td>Dr. Dolittle&lt;/td>
+        &lt;td>John Carter&lt;/td>
+        &lt;td>Prometheus&lt;/td>
+        &lt;td>A Bug's Life&lt;/td>
+      &lt;/tr>
+    &lt;/tbody>
+  &lt;/table>
+&lt;!-- DC Table Styles II:3 End -->
+
+          </pre>
+        </div>
+      </div>
+      <h3>Table style 4</h3>
+      <table class="dc_tables2_4" summary="Employee Pay Sheet" style="width:100%;">
+        <thead>
+          <tr>
+            <th scope="col">Employee</th>
+            <th scope="col">Salary</th>
+            <th scope="col">Bonus</th>
+            <th scope="col">Supervisor</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>John D. Wells</td>
+            <td>$300</td>
+            <td>$50</td>
+            <td>Bob</td>
+          </tr>
+          <tr>
+            <td>Fred Max</td>
+            <td>$150</td>
+            <td>-</td>
+            <td>Annie</td>
+          </tr>
+          <tr>
+            <td>Sam Cook</td>
+            <td>$200</td>
+            <td>$35</td>
+            <td>Andy</td>
+          </tr>
+          <tr>
+            <td>Tom H. Williams</td>
+            <td>$175</td>
+            <td>$25</td>
+            <td>Annie</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="js_hide_gadget js_minimized">
+        <h4><a href="#" class="js_hs_a">View code:</a></h4>
+        <div class="js_hide_box">
+          <pre class="brush: xml">
+
+&lt;!-- DC Table Styles II:4 Start -->
+  &lt;table class="dc_tables2_4" summary="Employee Pay Sheet" style="width:100%;">
+    &lt;thead>
+      &lt;tr>
+        &lt;th scope="col">Employee&lt;/th>
+        &lt;th scope="col">Salary&lt;/th>
+        &lt;th scope="col">Bonus&lt;/th>
+        &lt;th scope="col">Supervisor&lt;/th>
+      &lt;/tr>
+    &lt;/thead>
+    &lt;tbody>
+      &lt;tr>
+        &lt;td>John D. Wells&lt;/td>
+        &lt;td>$300&lt;/td>
+        &lt;td>$50&lt;/td>
+        &lt;td>Bob&lt;/td>
+      &lt;/tr>
+      &lt;tr>
+        &lt;td>Fred Max&lt;/td>
+        &lt;td>$150&lt;/td>
+        &lt;td>-&lt;/td>
+        &lt;td>Annie&lt;/td>
+      &lt;/tr>
+      &lt;tr>
+        &lt;td>Sam Cook&lt;/td>
+        &lt;td>$200&lt;/td>
+        &lt;td>$35&lt;/td>
+        &lt;td>Andy&lt;/td>
+      &lt;/tr>
+      &lt;tr>
+        &lt;td>Tom H. Williams&lt;/td>
+        &lt;td>$175&lt;/td>
+        &lt;td>$25&lt;/td>
+        &lt;td>Annie&lt;/td>
+      &lt;/tr>
+    &lt;/tbody>
+  &lt;/table>
+&lt;!-- DC Table Styles II:4 End -->
+
+          </pre>
+        </div>
+      </div>
+      <h3>Table style 5</h3>
+      <table class="dc_tables2_5" summary="Top Movies" style="width:100%;">
+        <thead>
+          <tr>
+            <th scope="col">Comedy</th>
+            <th scope="col">Adventure</th>
+            <th scope="col">Action</th>
+            <th scope="col">Children</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Scary Movie</td>
+            <td>Indiana Jones</td>
+            <td>Inception</td>
+            <td>Wall-E</td>
+          </tr>
+          <tr>
+            <td>Epic Movie</td>
+            <td>Star Wars</td>
+            <td>The Avengers</td>
+            <td>Madagascar</td>
+          </tr>
+          <tr>
+            <td>Spartan</td>
+            <td>LOTR</td>
+            <td>Die Hard</td>
+            <td>Finding Nemo</td>
+          </tr>
+          <tr>
+            <td>Dr. Dolittle</td>
+            <td>John Carter</td>
+            <td>Prometheus</td>
+            <td>A Bug's Life</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="js_hide_gadget js_minimized">
+        <h4><a href="#" class="js_hs_a">View code:</a></h4>
+        <div class="js_hide_box">
+          <pre class="brush: xml">
+
+&lt;!-- DC Table Styles II:5 Start -->
+  &lt;table class="dc_tables2_5" summary="Top Movies" style="width:100%;">
+    &lt;thead>
+      &lt;tr>
+        &lt;th scope="col">Comedy&lt;/th>
+        &lt;th scope="col">Adventure&lt;/th>
+        &lt;th scope="col">Action&lt;/th>
+        &lt;th scope="col">Children&lt;/th>
+      &lt;/tr>
+    &lt;/thead>
+    &lt;tbody>
+      &lt;tr>
+        &lt;td>Scary Movie&lt;/td>
+        &lt;td>Indiana Jones&lt;/td>
+        &lt;td>Inception&lt;/td>
+        &lt;td>Wall-E&lt;/td>
+      &lt;/tr>
+      &lt;tr>
+        &lt;td>Epic Movie&lt;/td>
+        &lt;td>Star Wars&lt;/td>
+        &lt;td>The Avengers&lt;/td>
+        &lt;td>Madagascar&lt;/td>
+      &lt;/tr>
+      &lt;tr>
+        &lt;td>Spartan&lt;/td>
+        &lt;td>LOTR&lt;/td>
+        &lt;td>Die Hard&lt;/td>
+        &lt;td>Finding Nemo&lt;/td>
+      &lt;/tr>
+      &lt;tr>
+        &lt;td>Dr. Dolittle&lt;/td>
+        &lt;td>John Carter&lt;/td>
+        &lt;td>Prometheus&lt;/td>
+        &lt;td>A Bug's Life&lt;/td>
+      &lt;/tr>
+    &lt;/tbody>
+  &lt;/table>
+&lt;!-- DC Table Styles II:5 End -->
+
+          </pre>
+        </div>
+      </div>
+      <h3>Table style 6</h3>
+      <table class="dc_tables2_6" summary="Employee Pay Sheet" style="width:100%;">
+        <thead>
+          <tr>
+            <th scope="col">Employee</th>
+            <th scope="col">Salary</th>
+            <th scope="col">Bonus</th>
+            <th scope="col">Supervisor</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="odd">
+            <td>John D. Wells</td>
+            <td>$300</td>
+            <td>$50</td>
+            <td>Bob</td>
+          </tr>
+          <tr>
+            <td>Fred Max</td>
+            <td>$150</td>
+            <td>-</td>
+            <td>Annie</td>
+          </tr>
+          <tr class="odd">
+            <td>Sam Cook</td>
+            <td>$200</td>
+            <td>$35</td>
+            <td>Andy</td>
+          </tr>
+          <tr>
+            <td>Tom H. Williams</td>
+            <td>$175</td>
+            <td>$25</td>
+            <td>Annie</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="js_hide_gadget js_minimized">
+        <h4><a href="#" class="js_hs_a">View code:</a></h4>
+        <div class="js_hide_box">
+          <pre class="brush: xml">
+
+&lt;!-- DC Table Styles II:6 Start -->
+  &lt;table class="dc_tables2_6" summary="Employee Pay Sheet" style="width:100%;">
+    &lt;thead>
+      &lt;tr>
+        &lt;th scope="col">Employee&lt;/th>
+        &lt;th scope="col">Salary&lt;/th>
+        &lt;th scope="col">Bonus&lt;/th>
+        &lt;th scope="col">Supervisor&lt;/th>
+      &lt;/tr>
+    &lt;/thead>
+    &lt;tbody>
+      &lt;tr class="odd">
+        &lt;td>John D. Wells&lt;/td>
+        &lt;td>$300&lt;/td>
+        &lt;td>$50&lt;/td>
+        &lt;td>Bob&lt;/td>
+      &lt;/tr>
+      &lt;tr>
+        &lt;td>Fred Max&lt;/td>
+        &lt;td>$150&lt;/td>
+        &lt;td>-&lt;/td>
+        &lt;td>Annie&lt;/td>
+      &lt;/tr>
+      &lt;tr class="odd">
+        &lt;td>Sam Cook&lt;/td>
+        &lt;td>$200&lt;/td>
+        &lt;td>$35&lt;/td>
+        &lt;td>Andy&lt;/td>
+      &lt;/tr>
+      &lt;tr>
+        &lt;td>Tom H. Williams&lt;/td>
+        &lt;td>$175&lt;/td>
+        &lt;td>$25&lt;/td>
+        &lt;td>Annie&lt;/td>
+      &lt;/tr>
+    &lt;/tbody>
+  &lt;/table>
+&lt;!-- DC Table Styles II:6 End -->
+
+          </pre>
+        </div>
+      </div>
+      <h3>Table style 7</h3>
+      <table class="dc_tables2_7" summary="Most Favorite Movies" style="width:100%;">
+        <colgroup>
+        <col class="dc_tab2_odd" />
+        <col class="dc_tab2_even" />
+        <col class="dc_tab2_odd" />
+        <col class="dc_tab2_even" />
+        </colgroup>
+        <thead>
+          <tr>
+            <th scope="col" class="dc_tab2_v1">Comedy</th>
+            <th scope="col" class="dc_tab2_v2">Adventure</th>
+            <th scope="col" class="dc_tab2_v1">Action</th>
+            <th scope="col" class="dc_tab2_v2">Children</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Scary Movie</td>
+            <td>Indiana Jones</td>
+            <td>Inception</td>
+            <td>Wall-E</td>
+          </tr>
+          <tr>
+            <td>Epic Movie</td>
+            <td>Star Wars</td>
+            <td>The Avengers</td>
+            <td>Madagascar</td>
+          </tr>
+          <tr>
+            <td>Spartan</td>
+            <td>LOTR</td>
+            <td>Die Hard</td>
+            <td>Finding Nemo</td>
+          </tr>
+          <tr>
+            <td>Dr. Dolittle</td>
+            <td>John Carter</td>
+            <td>Prometheus</td>
+            <td>A Bug's Life</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="js_hide_gadget js_minimized">
+        <h4><a href="#" class="js_hs_a">View code:</a></h4>
+        <div class="js_hide_box">
+          <pre class="brush: xml">
+
+&lt;!-- DC Table Styles II:7 Start -->
+  &lt;table class="dc_tables2_7" summary="Most Favorite Movies" style="width:100%;">
+    &lt;colgroup>
+    &lt;col class="dc_tab2_odd" />
+    &lt;col class="dc_tab2_even" />
+    &lt;col class="dc_tab2_odd" />
+    &lt;col class="dc_tab2_even" />
+    &lt;/colgroup>
+    &lt;thead>
+      &lt;tr>
+        &lt;th scope="col" class="dc_tab2_v1">Comedy&lt;/th>
+        &lt;th scope="col" class="dc_tab2_v2">Adventure&lt;/th>
+        &lt;th scope="col" class="dc_tab2_v1">Action&lt;/th>
+        &lt;th scope="col" class="dc_tab2_v2">Children&lt;/th>
+      &lt;/tr>
+    &lt;/thead>
+    &lt;tbody>
+      &lt;tr>
+        &lt;td>Scary Movie&lt;/td>
+        &lt;td>Indiana Jones&lt;/td>
+        &lt;td>Inception&lt;/td>
+        &lt;td>Wall-E&lt;/td>
+      &lt;/tr>
+      &lt;tr>
+        &lt;td>Epic Movie&lt;/td>
+        &lt;td>Star Wars&lt;/td>
+        &lt;td>The Avengers&lt;/td>
+        &lt;td>Madagascar&lt;/td>
+      &lt;/tr>
+      &lt;tr>
+        &lt;td>Spartan&lt;/td>
+        &lt;td>LOTR&lt;/td>
+        &lt;td>Die Hard&lt;/td>
+        &lt;td>Finding Nemo&lt;/td>
+      &lt;/tr>
+      &lt;tr>
+        &lt;td>Dr. Dolittle&lt;/td>
+        &lt;td>John Carter&lt;/td>
+        &lt;td>300&lt;/td>
+        &lt;td>A Bug's Life&lt;/td>
+      &lt;/tr>
+    &lt;/tbody>
+  &lt;/table>
+&lt;!-- DC Table Styles II:7 End -->
+
+          </pre>
+        </div>
+      </div>
+      <h3>Table style 8</h3>
+      <table class="dc_tables2_8" summary="Major IT Company Profits" style="width:100%;">
+        <colgroup>
+        <col class="dc_first" />
+        </colgroup>
+        <thead>
+          <tr>
+            <th scope="col">Company</th>
+            <th scope="col">Q1</th>
+            <th scope="col">Q2</th>
+            <th scope="col">Q3</th>
+            <th scope="col">Q4</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Microsoft</td>
+            <td>20.3</td>
+            <td>30.5</td>
+            <td>23.5</td>
+            <td>40.3</td>
+          </tr>
+          <tr>
+            <td>Google</td>
+            <td>50.2</td>
+            <td>40.63</td>
+            <td>45.23</td>
+            <td>39.3</td>
+          </tr>
+          <tr>
+            <td>Apple</td>
+            <td>25.4</td>
+            <td>30.2</td>
+            <td>33.3</td>
+            <td>36.7</td>
+          </tr>
+          <tr>
+            <td>IBM</td>
+            <td>20.4</td>
+            <td>15.6</td>
+            <td>22.3</td>
+            <td>29.3</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="js_hide_gadget js_minimized">
+        <h4><a href="#" class="js_hs_a">View code:</a></h4>
+        <div class="js_hide_box">
+          <pre class="brush: xml">
+
+&lt;!-- DC Table Styles II:8 Start -->
+  &lt;table class="dc_tables2_8" summary="Major IT Company Profits" style="width:100%;">
+    &lt;colgroup>
+    &lt;col class="dc_first" />
+    &lt;/colgroup>
+    &lt;thead>
+      &lt;tr>
+        &lt;th scope="col">Company&lt;/th>
+        &lt;th scope="col">Q1&lt;/th>
+        &lt;th scope="col">Q2&lt;/th>
+        &lt;th scope="col">Q3&lt;/th>
+        &lt;th scope="col">Q4&lt;/th>
+      &lt;/tr>
+    &lt;/thead>
+    &lt;tbody>
+      &lt;tr>
+        &lt;td>Microsoft&lt;/td>
+        &lt;td>20.3&lt;/td>
+        &lt;td>30.5&lt;/td>
+        &lt;td>23.5&lt;/td>
+        &lt;td>40.3&lt;/td>
+      &lt;/tr>
+      &lt;tr>
+        &lt;td>Google&lt;/td>
+        &lt;td>50.2&lt;/td>
+        &lt;td>40.63&lt;/td>
+        &lt;td>45.23&lt;/td>
+        &lt;td>39.3&lt;/td>
+      &lt;/tr>
+      &lt;tr>
+        &lt;td>Apple&lt;/td>
+        &lt;td>25.4&lt;/td>
+        &lt;td>30.2&lt;/td>
+        &lt;td>33.3&lt;/td>
+        &lt;td>36.7&lt;/td>
+      &lt;/tr>
+      &lt;tr>
+        &lt;td>IBM&lt;/td>
+        &lt;td>20.4&lt;/td>
+        &lt;td>15.6&lt;/td>
+        &lt;td>22.3&lt;/td>
+        &lt;td>29.3&lt;/td>
+      &lt;/tr>
+    &lt;/tbody>
+  &lt;/table>
+&lt;!-- DC Table Styles II:8 End -->
+
+          </pre>
+        </div>
+      </div>
+      <h3>Table style 9</h3>
+      <table class="dc_tables2_9" summary="Major IT Company Profits" style="width:100%;">
+        <thead>
+          <tr>
+            <th scope="col">Company</th>
+            <th scope="col">Q1</th>
+            <th scope="col">Q2</th>
+            <th scope="col">Q3</th>
+            <th scope="col">Q4</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Microsoft</td>
+            <td>20.3</td>
+            <td>30.5</td>
+            <td>23.5</td>
+            <td>40.3</td>
+          </tr>
+          <tr>
+            <td>Google</td>
+            <td>50.2</td>
+            <td>40.63</td>
+            <td>45.23</td>
+            <td>39.3</td>
+          </tr>
+          <tr>
+            <td>Apple</td>
+            <td>25.4</td>
+            <td>30.2</td>
+            <td>33.3</td>
+            <td>36.7</td>
+          </tr>
+          <tr>
+            <td>IBM</td>
+            <td>20.4</td>
+            <td>15.6</td>
+            <td>22.3</td>
+            <td>29.3</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="js_hide_gadget js_minimized">
+        <h4><a href="#" class="js_hs_a">View code:</a></h4>
+        <div class="js_hide_box">
+          <pre class="brush: xml">
+
+&lt;!-- DC Table Styles II:9 Start -->
+  &lt;table class="dc_tables2_9" summary="Major IT Company Profits" style="width:100%;">
+    &lt;thead>
+      &lt;tr>
+        &lt;th scope="col">Company&lt;/th>
+        &lt;th scope="col">Q1&lt;/th>
+        &lt;th scope="col">Q2&lt;/th>
+        &lt;th scope="col">Q3&lt;/th>
+        &lt;th scope="col">Q4&lt;/th>
+      &lt;/tr>
+    &lt;/thead>
+    &lt;tbody>
+      &lt;tr>
+        &lt;td>Microsoft&lt;/td>
+        &lt;td>20.3&lt;/td>
+        &lt;td>30.5&lt;/td>
+        &lt;td>23.5&lt;/td>
+        &lt;td>40.3&lt;/td>
+      &lt;/tr>
+      &lt;tr>
+        &lt;td>Google&lt;/td>
+        &lt;td>50.2&lt;/td>
+        &lt;td>40.63&lt;/td>
+        &lt;td>45.23&lt;/td>
+        &lt;td>39.3&lt;/td>
+      &lt;/tr>
+      &lt;tr>
+        &lt;td>Apple&lt;/td>
+        &lt;td>25.4&lt;/td>
+        &lt;td>30.2&lt;/td>
+        &lt;td>33.3&lt;/td>
+        &lt;td>36.7&lt;/td>
+      &lt;/tr>
+      &lt;tr>
+        &lt;td>IBM&lt;/td>
+        &lt;td>20.4&lt;/td>
+        &lt;td>15.6&lt;/td>
+        &lt;td>22.3&lt;/td>
+        &lt;td>29.3&lt;/td>
+      &lt;/tr>
+    &lt;/tbody>
+  &lt;/table>
+&lt;!-- DC Table Styles II:9 End -->
+
+          </pre>
+        </div>
+      </div>
+      <h3>Table style 10</h3>
+      <table class="dc_tables2_10" summary="Major IT Company Profits" style="width:100%;">
+        <thead>
+          <tr>
+            <th scope="col">Company</th>
+            <th scope="col">Q1</th>
+            <th scope="col">Q2</th>
+            <th scope="col">Q3</th>
+            <th scope="col">Q4</th>
+          </tr>
+        </thead>
+        <tfoot>
+          <tr>
+            <td colspan="5"><em>The above data is fictional.</em></td>
+          </tr>
+        </tfoot>
+        <tbody>
+          <tr>
+            <td>Microsoft</td>
+            <td>20.3</td>
+            <td>30.5</td>
+            <td>23.5</td>
+            <td>40.3</td>
+          </tr>
+          <tr>
+            <td>Google</td>
+            <td>50.2</td>
+            <td>40.63</td>
+            <td>45.23</td>
+            <td>39.3</td>
+          </tr>
+          <tr>
+            <td>Apple</td>
+            <td>25.4</td>
+            <td>30.2</td>
+            <td>33.3</td>
+            <td>36.7</td>
+          </tr>
+          <tr>
+            <td>IBM</td>
+            <td>20.4</td>
+            <td>15.6</td>
+            <td>22.3</td>
+            <td>29.3</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="js_hide_gadget js_minimized">
+        <h4><a href="#" class="js_hs_a">View code:</a></h4>
+        <div class="js_hide_box">
+          <pre class="brush: xml">
+
+&lt;!-- DC Table Styles II:10 Start -->
+  &lt;table class="dc_tables2_10" summary="Major IT Company Profits" style="width:100%;">
+    &lt;thead>
+      &lt;tr>
+        &lt;th scope="col">Company&lt;/th>
+        &lt;th scope="col">Q1&lt;/th>
+        &lt;th scope="col">Q2&lt;/th>
+        &lt;th scope="col">Q3&lt;/th>
+        &lt;th scope="col">Q4&lt;/th>
+      &lt;/tr>
+    &lt;/thead>
+    &lt;tfoot>
+      &lt;tr>
+        &lt;td colspan="5">&lt;em>The above data is fictional.&lt;/em>&lt;/td>
+      &lt;/tr>
+    &lt;/tfoot>
+    &lt;tbody>
+      &lt;tr>
+        &lt;td>Microsoft&lt;/td>
+        &lt;td>20.3&lt;/td>
+        &lt;td>30.5&lt;/td>
+        &lt;td>23.5&lt;/td>
+        &lt;td>40.3&lt;/td>
+      &lt;/tr>
+      &lt;tr>
+        &lt;td>Google&lt;/td>
+        &lt;td>50.2&lt;/td>
+        &lt;td>40.63&lt;/td>
+        &lt;td>45.23&lt;/td>
+        &lt;td>39.3&lt;/td>
+      &lt;/tr>
+      &lt;tr>
+        &lt;td>Apple&lt;/td>
+        &lt;td>25.4&lt;/td>
+        &lt;td>30.2&lt;/td>
+        &lt;td>33.3&lt;/td>
+        &lt;td>36.7&lt;/td>
+      &lt;/tr>
+      &lt;tr>
+        &lt;td>IBM&lt;/td>
+        &lt;td>20.4&lt;/td>
+        &lt;td>15.6&lt;/td>
+        &lt;td>22.3&lt;/td>
+        &lt;td>29.3&lt;/td>
+      &lt;/tr>
+    &lt;/tbody>
+  &lt;/table>
+&lt;!-- DC Table Styles II:10 End -->
+
+          </pre>
+        </div>
+      </div>
+      <h3>Table style 11</h3>
+      <table class="dc_tables2_11" summary="Personal Movie Rating" style="width:100%;">
+        <thead>
+          <tr>
+            <th scope="col">Favorite</th>
+            <th scope="col">Great</th>
+            <th scope="col">Nice</th>
+            <th scope="col">Bad</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Inception</td>
+            <td>Bourne Ultimatum</td>
+            <td>Transformers</td>
+            <td>Ali</td>
+          </tr>
+          <tr>
+            <td>The Big Fish</td>
+            <td>John Carter</td>
+            <td>Apocalypto</td>
+            <td>Monster</td>
+          </tr>
+          <tr>
+            <td>Shawshank Redemption</td>
+            <td>The Avengers</td>
+            <td>Indiana Jones</td>
+            <td>Dead or Alive</td>
+          </tr>
+          <tr>
+            <td>Greatest Story Ever Told</td>
+            <td>I Am Legend</td>
+            <td>Star Wars</td>
+            <td>Saw 3</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="js_hide_gadget js_minimized">
+        <h4><a href="#" class="js_hs_a">View code:</a></h4>
+        <div class="js_hide_box">
+          <pre class="brush: xml">
+
+&lt;!-- DC Table Styles II:11 Start -->
+  &lt;table class="dc_tables2_11" summary="Personal Movie Rating" style="width:100%;">
+    &lt;thead>
+      &lt;tr>
+        &lt;th scope="col">Favorite&lt;/th>
+        &lt;th scope="col">Great&lt;/th>
+        &lt;th scope="col">Nice&lt;/th>
+        &lt;th scope="col">Bad&lt;/th>
+      &lt;/tr>
+    &lt;/thead>
+    &lt;tbody>
+      &lt;tr>
+        &lt;td>Inception&lt;/td>
+        &lt;td>Bourne Ultimatum&lt;/td>
+        &lt;td>Transformers&lt;/td>
+        &lt;td>Ali&lt;/td>
+      &lt;/tr>
+      &lt;tr>
+        &lt;td>The Big Fish&lt;/td>
+        &lt;td>John Carter&lt;/td>
+        &lt;td>Apocalypto&lt;/td>
+        &lt;td>Monster&lt;/td>
+      &lt;/tr>
+      &lt;tr>
+        &lt;td>Shawshank Redemption&lt;/td>
+        &lt;td>The Avengers&lt;/td>
+        &lt;td>Indiana Jones&lt;/td>
+        &lt;td>Dead or Alive&lt;/td>
+      &lt;/tr>
+      &lt;tr>
+        &lt;td>Greatest Story Ever Told&lt;/td>
+        &lt;td>I Am Legend&lt;/td>
+        &lt;td>Star Wars&lt;/td>
+        &lt;td>Saw 3&lt;/td>
+      &lt;/tr>
+    &lt;/tbody>
+  &lt;/table>
+&lt;!-- DC Table Styles II:11 End -->
+
+          </pre>
+        </div>
+      </div>
+      <h3>Table style 12</h3>
+      <table class="dc_tables2_12" summary="Major IT Company Profits" style="width:100%;">
+        <thead>
+          <tr>
+            <th scope="col" class="rounded-company">Company</th>
+            <th scope="col" class="rounded-q1">Q1</th>
+            <th scope="col" class="rounded-q2">Q2</th>
+            <th scope="col" class="rounded-q3">Q3</th>
+            <th scope="col" class="rounded-q4">Q4</th>
+          </tr>
+        </thead>
+        <tfoot>
+          <tr>
+            <td colspan="4" class="rounded-foot-left"><em>Above data is fictional</em></td>
+            <td class="rounded-foot-right">&nbsp;</td>
+          </tr>
+        </tfoot>
+        <tbody>
+          <tr>
+            <td>Microsoft</td>
+            <td>20.3</td>
+            <td>30.5</td>
+            <td>23.5</td>
+            <td>40.3</td>
+          </tr>
+          <tr>
+            <td>Google</td>
+            <td>7.25</td>
+            <td>8.6</td>
+            <td>9.5</td>
+            <td>11.5</td>
+          </tr>
+          <tr>
+            <td>Apple</td>
+            <td>25.4</td>
+            <td>30.2</td>
+            <td>33.3</td>
+            <td>36.7</td>
+          </tr>
+          <tr>
+            <td>IBM</td>
+            <td>22.4</td>
+            <td>21.6</td>
+            <td>20.9</td>
+            <td>23.3</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="js_hide_gadget js_minimized">
+        <h4><a href="#" class="js_hs_a">View code:</a></h4>
+        <div class="js_hide_box">
+          <pre class="brush: xml">
+
+&lt;!-- DC Table Styles II:12 Start -->
+  &lt;table class="dc_tables2_12" summary="Major IT Company Profits" style="width:100%;">
+    &lt;thead>
+      &lt;tr>
+        &lt;th scope="col" class="rounded-company">Company&lt;/th>
+        &lt;th scope="col" class="rounded-q1">Q1&lt;/th>
+        &lt;th scope="col" class="rounded-q2">Q2&lt;/th>
+        &lt;th scope="col" class="rounded-q3">Q3&lt;/th>
+        &lt;th scope="col" class="rounded-q4">Q4&lt;/th>
+      &lt;/tr>
+    &lt;/thead>
+    &lt;tfoot>
+      &lt;tr>
+        &lt;td colspan="4" class="rounded-foot-left">&lt;em>Above data is fictional&lt;/em>&lt;/td>
+        &lt;td class="rounded-foot-right">&nbsp;&lt;/td>
+      &lt;/tr>
+    &lt;/tfoot>
+    &lt;tbody>
+      &lt;tr>
+        &lt;td>Microsoft&lt;/td>
+        &lt;td>20.3&lt;/td>
+        &lt;td>30.5&lt;/td>
+        &lt;td>23.5&lt;/td>
+        &lt;td>40.3&lt;/td>
+      &lt;/tr>
+      &lt;tr>
+        &lt;td>Google&lt;/td>
+        &lt;td>7.25&lt;/td>
+        &lt;td>8.6&lt;/td>
+        &lt;td>9.5&lt;/td>
+        &lt;td>11.5&lt;/td>
+      &lt;/tr>
+      &lt;tr>
+        &lt;td>Apple&lt;/td>
+        &lt;td>25.4&lt;/td>
+        &lt;td>30.2&lt;/td>
+        &lt;td>33.3&lt;/td>
+        &lt;td>36.7&lt;/td>
+      &lt;/tr>
+      &lt;tr>
+        &lt;td>IBM&lt;/td>
+        &lt;td>22.4&lt;/td>
+        &lt;td>21.6&lt;/td>
+        &lt;td>20.9&lt;/td>
+        &lt;td>23.3&lt;/td>
+      &lt;/tr>
+    &lt;/tbody>
+  &lt;/table>
+&lt;!-- DC Table Styles II:12 End -->
+
+          </pre>
+        </div>
+      </div>
+      <h3>Table style 13</h3>
+      <table class="dc_tables2_13" summary="Meeting Results" style="width:100%;">
+        <thead>
+          <tr>
+            <th scope="col">Employee</th>
+            <th scope="col">Division</th>
+            <th scope="col">Suggestions</th>
+          </tr>
+        </thead>
+        <tfoot>
+          <tr>
+            <td colspan="4">Top division: marketing</td>
+          </tr>
+        </tfoot>
+        <tbody>
+          <tr>
+            <td>John D. Wells</td>
+            <td>Marketing</td>
+            <td>Make discount offers</td>
+          </tr>
+          <tr>
+            <td>Fred Max</td>
+            <td>Advertising</td>
+            <td>Give bonuses</td>
+          </tr>
+          <tr>
+            <td>Sam Cook</td>
+            <td>Marketing</td>
+            <td>New designs</td>
+          </tr>
+          <tr>
+            <td>Tom H. Williams</td>
+            <td>Marketing</td>
+            <td>Better Packaging</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="js_hide_gadget js_minimized">
+        <h4><a href="#" class="js_hs_a">View code:</a></h4>
+        <div class="js_hide_box">
+          <pre class="brush: xml">
+
+&lt;!-- DC Table Styles II:13 Start -->
+  &lt;table class="dc_tables2_13" summary="Meeting Results" style="width:100%;">
+    &lt;thead>
+      &lt;tr>
+        &lt;th scope="col">Employee&lt;/th>
+        &lt;th scope="col">Division&lt;/th>
+        &lt;th scope="col">Suggestions&lt;/th>
+      &lt;/tr>
+    &lt;/thead>
+    &lt;tfoot>
+      &lt;tr>
+        &lt;td colspan="4">Top division: marketing&lt;/td>
+      &lt;/tr>
+    &lt;/tfoot>
+    &lt;tbody>
+      &lt;tr>
+        &lt;td>John D. Wells&lt;/td>
+        &lt;td>Marketing&lt;/td>
+        &lt;td>Make discount offers&lt;/td>
+      &lt;/tr>
+      &lt;tr>
+        &lt;td>Fred Max&lt;/td>
+        &lt;td>Advertising&lt;/td>
+        &lt;td>Give bonuses&lt;/td>
+      &lt;/tr>
+      &lt;tr>
+        &lt;td>Sam Cook&lt;/td>
+        &lt;td>Marketing&lt;/td>
+        &lt;td>New designs&lt;/td>
+      &lt;/tr>
+      &lt;tr>
+        &lt;td>Tom H. Williams&lt;/td>
+        &lt;td>Marketing&lt;/td>
+        &lt;td>Better Packaging&lt;/td>
+      &lt;/tr>
+    &lt;/tbody>
+  &lt;/table>
+&lt;!-- DC Table Styles II:13 End -->
+
+          </pre>
+        </div>
+      </div>
+      <h3>Table style 14</h3>
+      <table class="dc_tables2_14" summary="Meeting Results" style="width:100%;">
+        <thead>
+          <tr>
+            <th scope="col">Employee</th>
+            <th scope="col">Division</th>
+            <th scope="col">Suggestions</th>
+            <th scope="col">Rating</th>
+          </tr>
+        </thead>
+        <tfoot>
+          <tr>
+            <td colspan="4">Total of all ratings 24.00</td>
+          </tr>
+        </tfoot>
+        <tbody>
+          <tr>
+            <td>John D. Wells</td>
+            <td>Marketing</td>
+            <td>Make discount offers</td>
+            <td>3/10</td>
+          </tr>
+          <tr>
+            <td>Fred Max</td>
+            <td>Advertising</td>
+            <td>Give bonuses</td>
+            <td>5/10</td>
+          </tr>
+          <tr>
+            <td>Sam Cook</td>
+            <td>Marketing</td>
+            <td>New designs</td>
+            <td>8/10</td>
+          </tr>
+          <tr>
+            <td>Tom H. Williams</td>
+            <td>Marketing</td>
+            <td>Better Packaging</td>
+            <td>8/10</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="js_hide_gadget js_minimized">
+        <h4><a href="#" class="js_hs_a">View code:</a></h4>
+        <div class="js_hide_box">
+          <pre class="brush: xml">
+
+&lt;!-- DC Table Styles II:14 Start -->
+  &lt;table class="dc_tables2_14" summary="Meeting Results" style="width:100%;">
+    &lt;thead>
+      &lt;tr>
+        &lt;th scope="col">Employee&lt;/th>
+        &lt;th scope="col">Division&lt;/th>
+        &lt;th scope="col">Suggestions&lt;/th>
+        &lt;th scope="col">Rating&lt;/th>
+      &lt;/tr>
+    &lt;/thead>
+    &lt;tfoot>
+      &lt;tr>
+        &lt;td colspan="4">Total of all ratings 24.00&lt;/td>
+      &lt;/tr>
+    &lt;/tfoot>
+    &lt;tbody>
+      &lt;tr>
+        &lt;td>John D. Wells&lt;/td>
+        &lt;td>Marketing&lt;/td>
+        &lt;td>Make discount offers&lt;/td>
+        &lt;td>3/10&lt;/td>
+      &lt;/tr>
+      &lt;tr>
+        &lt;td>Fred Max&lt;/td>
+        &lt;td>Advertising&lt;/td>
+        &lt;td>Give bonuses&lt;/td>
+        &lt;td>5/10&lt;/td>
+      &lt;/tr>
+      &lt;tr>
+        &lt;td>Sam Cook&lt;/td>
+        &lt;td>Marketing&lt;/td>
+        &lt;td>New designs&lt;/td>
+        &lt;td>8/10&lt;/td>
+      &lt;/tr>
+      &lt;tr>
+        &lt;td>Tom H. Williams&lt;/td>
+        &lt;td>Marketing&lt;/td>
+        &lt;td>Better Packaging&lt;/td>
+        &lt;td>8/10&lt;/td>
+      &lt;/tr>
+    &lt;/tbody>
+  &lt;/table>
+&lt;!-- DC Table Styles II:14 End -->
+
+          </pre>
+        </div>
+      </div>
+      <br />
+      <br />
+    </div>
+  </div>
+</section>
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <h3>About</h3>
+        <p>We strive to deliver a level of service that exceeds the expectations of our customers. <br />
+          <br />
+          If you have any questions about our products or services, please do not hesitate to contact us. We have friendly, knowledgeable representatives available seven days a week to assist you.</p>
+      </div>
+      <div class="col-md-3">
+        <h3>Tweets</h3>
+        <p><span>Tweet</span> <a href="#">@You</a><br />
+          Etiam egestas, ipsum posuere accumsan sollicitudin, nulla mauris volutpat sem, sit amet rutrum risus. </p>
+        <p><span>Tweet</span> <a href="#">@You</a><br />
+          Quisque porta tellus vitae adipiscing molestie. Mauris et lacus blandit, malesuada.</p>
+      </div>
+      <div class="col-md-3">
+        <h3>Mailing list</h3>
+        <p>Subscribe to our mailing list for offers, news updates and more!</p>
+        <br />
+        <form action="#" method="post" class="form-inline" role="form">
+          <div class="form-group">
+            <label class="sr-only" for="exampleInputEmail2">your email</label>
+            <input type="email" class="form-control form-control-lg" id="exampleInputEmail2" placeholder="your email">
+          </div>
+          <button type="submit" class="btn btn-primary btn-md">subscribe</button>
+        </form>
+      </div>
+      <div class="col-md-3">
+        <h3>Social</h3>
+        <p>
+        <h3>Social</h3>
+        <p>123 Business Way<br />
+          San Francisco, CA 94108<br />
+          USA<br />
+          <br />
+          Phone: (888) 123-4567<br />
+          Fax: (887) 123-4567<br />
+          <br />
+        </p>
+        </p>
+        <div class="social__icons"> <a href="#" class="socialicon socialicon-twitter"></a> <a href="#" class="socialicon socialicon-facebook"></a> <a href="#" class="socialicon socialicon-google"></a> <a href="#" class="socialicon socialicon-mail"></a> </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<p class="text-center copyright">&copy; Copyright ABC Company. All Rights Reserved.</p>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script type="text/javascript" src="js/jquery.min.js"></script> 
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script src="js/bootstrap.min.js"></script> 
+
+<!-- Shortcodes Toggle/SyntaxHighlighter // This can be removed on a live site -->
+<link type="text/css" rel="stylesheet" href="shortcodes/scodes_toggle/toggle.css">
+<script type="text/javascript" src="shortcodes/scodes_toggle/toggle.js"></script> 
+<script type="text/javascript" src="shortcodes/scodes_toggle/scripts/shCore.js"></script> 
+<script type="text/javascript" src="shortcodes/scodes_toggle/scripts/shBrushJScript.js"></script>
+<link type="text/css" rel="stylesheet" href="shortcodes/scodes_toggle/styles/shCoreDefault.css" />
+<script src="shortcodes/scodes_toggle/scripts/shBrushXml.js" type="text/javascript"></script> 
+<script src="shortcodes/scodes_toggle/scripts/shBrushJScript.js" type="text/javascript"></script> 
+<script src="shortcodes/scodes_toggle/scripts/shBrushCss.js" type="text/javascript"></script> 
+<script type="text/javascript">SyntaxHighlighter.all();</script> 
+<!-- Shortcodes Toggle/SyntaxHighlighter // This can be removed on a live site --> 
+
+<script type="text/javascript">
+$( "a.submenu" ).click(function() {
+$( ".menuBar" ).slideToggle( "normal", function() {
+// Animation complete.
+});
+});
+$( "ul li.dropdown a" ).click(function() {
+$( "ul li.dropdown ul" ).slideToggle( "normal", function() {
+// Animation complete.
+});
+$('ul li.dropdown').toggleClass('current');
+});
+</script>
+</body>
+</html>

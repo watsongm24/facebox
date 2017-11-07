@@ -1,0 +1,12 @@
+** THIS PACKAGE HAS BEEN DIGITALLY FILED WITH THE U.S. COPYRIGHT OFFICE. **
+
+Warning: This package is protected by copyright law. Unauthorized 
+reproduction or distribution of this package, or any portion of it,
+may result in severe civil and criminal penalties, and will be
+prosecuted to the maximum extent possible under the law.
+
+This package, design and accompanying digital materials are provided "as is" 
+and without warranties as to performance of merchantability or any 
+other warranties whether expressed or implied. In no case shall the author be 
+liable for any incidental, special or consequential damages or loss.
+

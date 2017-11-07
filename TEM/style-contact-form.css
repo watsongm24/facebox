@@ -1,0 +1,137 @@
+*{
+    margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body{
+	background-color: #FFFFFF;
+	padding: 8px;
+}
+
+.kontaktformular  {
+	width:  100%;
+	max-width: 400px;
+	padding: 10px;
+	font-size: 11px;
+	font-family: Tahoma, Verdana, Arial;
+	border: 1px solid #666666;
+	background: #F5F5F5;
+}
+
+.kontaktformular fieldset {
+	margin: 10px 0;
+	padding: 8px;
+}
+	.kontaktformular a {color: #990000; text-decoration: none;}
+	.kontaktformular a:hover {color: #483D8A;}
+	  
+	.kontaktformular legend {
+		background: #006794;
+		color: #fff;
+		padding: 3px 5px;
+		border: 1px solid #ddd;
+		text-transform: uppercase;
+	}
+		.kontaktformular .row{
+			padding: 1px 10px;
+		}
+			.kontaktformular label{
+				display: inline-block;
+				width: 30%;
+				vertical-align: top;
+				padding-top: 3px;
+			}
+			.kontaktformular .field{
+				display: inline-block;
+				width: 68%;
+			}
+					  
+			.kontaktformular input, .kontaktformular textarea, .kontaktformular select {
+				width:100%;
+				border-right: 1px solid #ddd;
+				border-bottom: 1px solid #ddd;
+				border-left: 1px solid #666666;
+				border-top: 1px solid #666666;
+				padding: 0px 3px;
+				margin: 3px 0;
+				background: #ddc;
+			}
+			
+			.kontaktformular select {
+				width:50%;
+			}
+
+
+			.kontaktformular input:active, .kontaktformular input:focus, .kontaktformular input:hover,
+			.kontaktformular textarea:active, .kontaktformular textarea:focus, .kontaktformular textarea:hover,
+			.kontaktformular select:active, .kontaktformular select:focus, .kontaktformular select:hover {
+				background: #ffff88;
+			}
+
+.kontaktformular .errormsg{
+	color: #f00;
+}
+input.errordesignfields, textarea.errordesignfields, select.errordesignfields { background-color:#cc3333;}
+
+.captchareload { padding-left:10px;}
+
+#checkid {
+  width: auto;
+}
+#checkid2 {
+  width: auto;
+}
+
+.buttons{
+	text-align: center;
+}
+	.buttons input { 
+		width: 40%;
+		margin-top: 20px;
+	}
+	.buttons input, .captchareload img { background: #555555; color: #fff; border-top:2px solid #fff; border-left:2px solid #fff; border-bottom:2px solid #666666; border-right:2px solid #666666;}
+	.buttons input:hover, .captchareload img:hover { background: #555555; color: #fff; border-top:2px solid #ddd; border-left:2px solid #ddd; border-bottom:2px solid #fff; border-right:2px solid #fff;}
+
+.pflichtfeld {
+	 color: #800000;
+}
+	 
+.kontaktformular .pflichtfeldhinweis{
+	text-align:center;
+}
+
+.zurueck {
+	color: #6891D1;
+}
+
+.kontaktformular .copyright{
+	font-size:11px; 
+	text-align:center;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 380px) {
+	/* .kontaktformular .row{
+		padding: 3px 10px;
+	} */
+		.kontaktformular label{
+			display: block;
+			width: 100%;
+		}
+		.kontaktformular .field{
+			display: block;
+			width: 100%;
+		}
+		.kontaktformular input, .kontaktformular textarea, .kontaktformular select {
+			padding: 6px;
+		}
+		.kontaktformular select {
+			height:28px;
+		}
+}
+

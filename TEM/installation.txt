@@ -1,0 +1,1 @@
+Installation Guide: http://www.kontaktformular.com/en/installation-script-php-contact-form.html

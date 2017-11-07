@@ -1,0 +1,247 @@
+/*
+Design by Metamorphosis Design
+http://www.metamorphozis.com
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+*
+{
+margin: 0px;
+padding: 0px;
+}
+
+a:link {
+	color: #093e07;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #000000;
+	font-weight:bold;
+}
+
+a:visited {
+	color: #093e07;
+	font-weight:bold;
+}
+
+body{
+	background: #FFCA98 url(images/bg.jpg) top repeat-x;
+	font: 11px Arial, Helvetica, sans-serif;
+	color: #464646;
+	margin: 0 auto;
+	padding: 0px;
+}
+
+#content{
+	width: 940px;
+	text-align: left;
+}
+
+#main{
+	width: 940px;
+	margin: 9px;
+	clear:both;
+	
+}
+
+#header{
+	height: 166px;
+	width: 960px;
+	background: url(images/header.jpg) no-repeat top;		
+}
+
+#logo{
+	height: 49px;
+	text-align: left;
+	padding-left: 100px;
+	padding-top: 20px;
+}
+
+
+#logo a {
+	text-decoration: none;
+	text-transform: lowercase;
+	font-style: italic;
+	font-size: 18px;
+	color: #ffffff;
+}
+#logo H2 a{
+	font-size: 12px;
+}
+
+
+#menu{
+	width: 500px;
+	height: 54px;
+	padding-left: 480px;
+	
+}
+
+#menu ul {
+	list-style: none;
+	padding: 0px;	
+}
+
+#menu li {
+	list-style: none;
+	padding: 0px;	
+	display: inline; 
+	
+}
+
+#menu a {
+	float: left;
+	width: 80px;
+	height: 36px;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	color: #ffffff;
+	font-weight: bold;
+	padding-top: 18px;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+#menu a:hover{
+	color: #ffffff;
+	text-decoration: underline;
+	font-size: 16px;
+}
+
+#left{
+	width: 224px;
+}
+
+#left a{
+	color: #093f07;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#left a:hover{
+	color: #000000;
+}
+
+
+#left H3{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 23px;
+	font-weight: normal;
+	color: #ffffff;
+	width: 213px;
+	height: 53px;
+	padding-top: 5px;
+	background: url(images/left_title.png) no-repeat;
+	margin-left: 6px;
+	text-align: center;
+}
+
+#left ul {
+	list-style: none;
+	padding-left: 15px;
+	padding-bottom: 15px;
+}
+
+#left ul li{
+	height: 20px;
+	margin-top: 4px;
+}
+
+#categories ul li{
+	padding-left: 15px;
+	padding-top: 1px;
+}
+
+#partners ul li{
+	padding-left: 15px;
+	padding-top: 1px;
+}
+
+#right{
+	float: right;
+	width: 698px;
+	margin-right: 9px;
+}
+
+
+.text{
+	padding-left: 15px;
+	padding-right: 25px;
+}
+
+#right H4{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 18px;
+	font-weight: normal;
+	color: #093e07;
+	height: 20px;
+	padding-left: 3px;
+	padding-top: 18px;
+	margin-left: 25px;
+	border-bottom: 1px dotted #000000;
+	margin-right: 25px;
+	margin-bottom: 20px;
+}
+
+#right p {
+	margin: 0;
+	padding: 0;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+
+#right h2 {
+	margin: 0;
+	padding: 0;
+	padding-top: 10px;
+	color: #196050;
+}
+
+#leftcol{
+	width: 160px;
+	float:left;
+	margin-left: 45px;
+}
+
+#cencol{
+	width: 160px;
+	float:left;
+	margin-left: 40px;
+}
+
+#rightcol{
+	width: 160px;
+	float:left;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+#mainbot{
+	background: url(images/mainbot.jpg) no-repeat;
+	height: 10px;
+}	
+
+#footer {
+	height: 40px;
+	clear: both;
+	margin: 0 auto;
+	padding-top: 20px;
+	background: url(images/footer.gif) repeat-x top;
+}
+
+#footer p {
+	margin: 0;
+	font-size: 10px;
+	text-align: center;
+	color: #ffffff;
+}
+
+#footer a {
+	color: #ffffff;
+}

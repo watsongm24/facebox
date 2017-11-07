@@ -1,0 +1,33 @@
+
+<DOCTYPE html>
+<html>
+</head>
+<body>
+
+<script type="text/javascript">
+  function concatenar()
+  {
+    var nom=document.getElementById('nombre').value;
+    var ape=document.getElementById('apellido').value;
+    document.getElementById('resultado').value=nom +ape;
+  }
+</script>
+
+<form>
+Ingrese nombre:
+<input type="text" id="nombre ">
+<br>
+<p>
+
+Ingrese apellido:
+<input type="text" id="apellido ">
+<br>
+<p>
+<input type="button" value="Concatenar datos ingresados" onClick="concatenar()">
+<br>
+<p>
+<input type="text" id="resultado">
+</p>
+</form>
+</body>
+</html>
